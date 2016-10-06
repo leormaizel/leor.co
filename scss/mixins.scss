@@ -1,0 +1,55 @@
+/*
+-------------------------------------------------------- 
+Mixins
+-------------------------------------------------------- 
+*/
+
+@mixin vendor-prefix($name, $argument) {
+    -webkit-#{$name}: #{$argument};
+    -ms-#{$name}: #{$argument};
+    -moz-#{$name}: #{$argument};
+    -o-#{$name}: #{$argument};
+    #{$name}: #{$argument};
+}
+
+@mixin transition($transition-property: all, $transition-time: 0.5s, $method: ease) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin image-stripe($background-image, $min-height, $background-attachment: fixed, $background-position: 0 0, $padding: 4em 0 12em) {
+    background-image: $background-image;
+    background-attachment: $background-attachment;
+    background-position: $background-position;
+    min-height: $min-height;
+    padding: $padding;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    @include vendor-prefix(background-size, cover);
+}
+
+@mixin image-stripe2($background-image, $padding, $background-attachment: fixed, $background-position: 0 0) {
+    background-image: $background-image;
+    padding-top: $padding;
+    background-attachment: $background-attachment;
+    background-position: $background-position;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+
+    &:after {
+        clear: both;
+    }
+}

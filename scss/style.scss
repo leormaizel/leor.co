@@ -1,0 +1,713 @@
+
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+
+/* 
+-------------------------------------------------------- 
+Global
+-------------------------------------------------------- 
+*/
+
+*, *:before, *:after {
+    @include vendor-prefix(box-sizing, border-box);
+}
+
+html {
+    background-color: $white;
+    position: relative;
+}
+
+body {
+    @include clearfix;
+    color: $near-black;
+    // padding-top: 68px;
+}
+
+a {
+    color: $viking;
+    text-decoration: none;
+}
+
+section {
+    @include clearfix;
+
+    position: relative;
+}
+
+section.content {
+    padding: 6rem 0;
+}
+
+section.title {
+    padding: 2em 0;
+}
+
+.wrap {
+    width: 80%;
+    max-width: 75rem;
+    margin: auto;
+    @include clearfix;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+/* ----- Global: Links ----- */
+
+.link {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease 
+
+    span {
+        position: relative;
+        color: #40b3b9;
+        background: -webkit-linear-gradient(left, #2BABB1, #35CDAC);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transition: all 0.3s ease;
+    };
+
+    &:after {
+        content: '';
+        background: -webkit-linear-gradient(left, #2BABB1, #35CDAC);
+        background: -moz-linear-gradient(left, #2BABB1, #35CDAC);
+        background: -o-linear-gradient(left, #2BABB1, #35CDAC);
+        background: -ms-linear-gradient(left, #2BABB1, #35CDAC);
+        background: linear-gradient(left, #2BABB1, #35CDAC);
+        width: 0%;
+        height: 4px;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        transition: all 0.3s ease;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+}
+
+/* ----- Global: Nav/Footer ----- */
+
+nav {
+    
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    padding: .5em;
+    @include font-size(1.1);
+    @include transition;
+    @include clearfix;
+
+    .logo-wrap {
+        vertical-align: middle;
+        display: inline-block;
+
+        a {
+            display: block;
+            height: 50px;
+            width: 50px;
+            background: url(../assets/img/logo-white.png) center center no-repeat;
+            background-size: contain
+        }
+    }
+
+    ul {
+        width: 80%;
+        text-align: right;
+        vertical-align: middle;
+        display: inline-block;
+
+        li {
+            margin: 0 3%;
+            display: inline-block;
+
+            a {
+                color: $white;
+                display: block;
+                padding: 0.2em 0.5em;
+                text-align: center;
+                @include vendor-prefix(border-radius, 3px);
+                @include transition;
+                &:hover {
+                    // opacity: .7;
+                    // font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+nav.fullbar {
+  background: $white;
+  @include vendor-prefix(box-shadow, 0px 0px 8px 1px rgba(168,168,168,0.5));
+
+  .logo-wrap a {
+    background: url(../assets/img/logo-black.png) center center no-repeat;
+    background-size: contain;
+  }
+
+  li a {
+    color: $near-black;
+  }
+
+}
+
+
+/* 
+-------------------------------------------------------- 
+Pages: Index
+-------------------------------------------------------- 
+*/
+
+/* ----- Index: Header ----- */
+
+.index header {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    background: url(../assets/img/banner-index.jpg) center no-repeat;
+    background-size: cover;
+
+    #canvas-basic {
+        opacity: .7;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .tagline {
+        padding: 15% 0 20%;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        color: $white;
+
+        h1 {
+            @include font-size(6);
+        }
+
+        h2 {
+            @include font-size(3);
+        }
+    }
+}
+
+/* ----- Index: Manifesto ----- */
+
+.manifesto {
+    background: $gray;
+    margin: auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: $charcoal;
+    text-align: center;
+    @include clearfix;
+
+    .prompt {
+        @include font-size(1.6);
+
+        div {
+          @include font-size(2);
+        }
+    }
+
+    blockquote {
+        font-family: 'vollkorn', sans-serif;
+        margin: 2rem auto;
+        max-width: 30rem;
+        @include font-size(1);
+    }
+
+    .attrib {
+        font-family: 'vollkorn', sans-serif;
+        margin-top: 2rem;
+        @include font-size(1);
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+    }
+}
+
+/* ----- Index: Work ----- */
+
+.projects-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li:nth-child(1) a {
+      background-color: $picton-blue;
+    }
+    li:nth-child(2) a {
+      background-color: $emerald;
+    }
+    li:nth-child(3) a {
+      background-color: $viking;
+    }
+    li:nth-child(4) a {
+      background-color: $cornflower;
+    }
+    li:nth-child(5) a {
+      background-color: $pelorous;
+    }
+    li:nth-child(6) a {
+      background-color: $picton-blue;
+    }
+
+    li.featured {
+      width: 50%;
+    }
+
+    li {
+        padding: 15px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+        width: 33.333%;
+
+        a {
+            min-height: 200px;
+            display: block;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            // background-position: -300px 0;
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+
+            .title{
+              background-color: $white;
+              padding: 1.5rem;
+              border: 1px solid $light-gray;
+            }
+
+            p {
+              font-family: 'vollkorn', sans-serif;
+              color: $white;
+              padding: 1.5rem;
+            }
+        }
+    }
+}
+
+/* ----- About ----- */
+
+.about {
+    aside {
+        display: inline-block;
+        width: 20%;
+        vertical-align: top;
+
+        .img-wrap {
+            width: 80%;
+            margin: auto auto 2em;
+
+            img {
+                width: 100%;
+                @include vendor-prefix(border-radius, 3px);
+            }
+        }
+
+        .btn {
+            margin-bottom: 1em;
+        }
+    }
+
+    .copy {
+        display: inline-block;
+        width: 75%;
+        margin-left: 4%;
+        vertical-align: top;
+    }
+}
+
+.index .bottom-stripe {
+    @include image-stripe(url(../assets/img/stripe-grass.jpg), 20em);
+}
+
+/* 
+-------------------------------------------------------- 
+Pages: Portfolio Pages
+-------------------------------------------------------- 
+*/
+
+.portfolio-proj.pb-na header {
+    @include image-stripe2(url(../assets/img/banner-pbweb.jpg), 12%);
+}
+
+.portfolio-proj.li header {
+    @include image-stripe2(url(../assets/img/banner-li.jpg), 12%);
+}
+
+.portfolio-proj.pbmobile header {
+    @include image-stripe2(url(../assets/img/banner-pbmobile.jpg), 12%);
+}
+
+.portfolio-proj.ep header {
+    @include image-stripe2(url(../assets/img/banner-ep.jpg), 12%);
+}
+
+.portfolio-proj.cm header {
+    @include image-stripe2(url(../assets/img/banner-cm.jpg), 12%);
+}
+
+.portfolio-proj.cnd header {
+    @include image-stripe2(url(../assets/img/banner-cnd.jpg), 12%);
+}
+
+.portfolio-proj.gtos header {
+    @include image-stripe2(url(../assets/img/banner-gtos.jpg), 12%);
+}
+
+.portfolio-proj.ou header {
+    @include image-stripe2(url(../assets/img/banner-ou.jpg), 12%);
+}
+
+.portfolio-proj {
+    header {
+        img {
+            position: relative;
+            z-index: 1;
+            margin: auto;
+            display: block;
+            width: 40%;
+            max-width: 803px;
+            margin-bottom: -12%;
+        }
+    }
+
+    h1 {
+        @include font-size(3);
+
+        padding-top: 20px;
+        padding-top: 2rem;
+        padding-bottom: 50px;
+        padding-bottom: 5rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        position: relative;
+        z-index: 100;
+    }
+
+    section.content {
+        padding-top: 12%;
+    }
+
+    article {
+        display: inline-block;
+        vertical-align: top;
+        width: 70%;
+        margin-right: 3%;
+
+        ul {
+            margin-bottom: 2em;
+
+            li {
+                list-style-type: circle;
+                margin-left: 15px;
+            }
+        }
+    }
+
+    aside {
+        display: inline-block;
+        vertical-align: top;
+        width: 26%;
+        padding: 2% 2% 3%;
+
+        h3 {
+            border-bottom: 1px solid $near-black;
+            padding-bottom: 0.3em;
+        }
+    }
+
+    .images figure {
+        width: 80%;
+        margin: 3em auto;
+        background-color: $near-black;
+
+        img {
+            display: block;
+            max-width: 100%;
+            margin: auto;
+        }
+
+        figcaption {
+            background-color: $near-black;
+            color: $white;
+            padding: 1em;
+        }
+    }
+
+    .media {
+        margin-bottom: 4em;
+
+        h4 {
+            margin-bottom: 3em;
+        }
+
+        .video,
+        img {
+            display: inline-block;
+            vertical-align: top;
+            max-width: 406px !important;
+            width: 40% !important;
+        }
+
+        .descrip {
+            display: inline-block;
+            vertical-align: top;
+            width: 58%;
+            margin-left: 1%;
+        }
+    }
+
+    .proj_nav {
+        position: fixed;
+        top: 50%;
+        width: 100%;
+        height: 3.125em;
+        text-align: center;
+        z-index: 3;
+
+        a {
+            line-height: 3.125em;
+            background-color: $gray;
+            opacity: 0.5;
+        }
+
+        a.prev {
+            position: absolute;
+            left: 0px;
+        }
+
+        a.next {
+            position: absolute;
+            right: 0px;
+        }
+
+        a i {
+            font-size: 3.125em;
+            line-height: 1.25em;
+        }
+    }
+}
+
+/* 
+-------------------------------------------------------- 
+Pages: Manifesto & Cartoons
+-------------------------------------------------------- 
+*/
+
+.manifesto-page {
+    header {
+        @include image-stripe(url(../assets/img/stripe-waves.jpg), 25em);
+    }
+
+    .bottom-stripe {
+        @include image-stripe(url(../assets/img/stripe-tracks.jpg), 50em);
+    }
+
+    blockquote {
+        width: 50%;
+        margin: auto;
+        padding: 8em;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+        width: 49%;
+        display: inline-block;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.cartoons {
+    header {
+        @include image-stripe(url(../assets/img/stripe-wood.jpg), 25em);
+    }
+
+    .bottom-stripe {
+        @include image-stripe(url(../assets/img/stripe-thistle.jpg), 50em);
+    }
+}
+
+.cartoons figure {
+    width: 80%;
+    margin: 3em auto;
+    background-color: $near-black;
+
+    img {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    figcaption {
+        background-color: $near-black;
+        color: $white;
+        padding: 1em;
+    }
+}
+
+/* 
+-------------------------------------------------------- 
+Media Queries
+-------------------------------------------------------- 
+*/
+
+@media all and (max-width: $med) {
+    .index header,
+    .index .bottom-stripe,
+    .manifesto-page header,
+    .manifesto-page .bottom-stripe,
+    .cartoons header,
+    .cartoons .bottom-stripe {
+        background-attachment: scroll !important;
+        min-width: 100%;
+
+        /*min-height: 100%;*/
+    }
+
+    .wrap {
+        width: 90%;
+    }
+
+    .btn {
+        max-width: 100%;
+    }
+
+    .manifesto {
+        .vs {
+            display: none;
+        }
+
+        blockquote {
+            width: 100%;
+            padding: 2em;
+        }
+    }
+
+    .portfolio-projects figure {
+        float: none;
+        width: 100%;
+        margin: 2em 1%;
+    }
+
+    .about {
+        aside {
+            display: block;
+            width: 100%;
+
+            .img-wrap {
+                width: 30%;
+                display: inline-block;
+                vertical-align: top;
+                margin-bottom: 0.6em;
+            }
+
+            .btn-wrap {
+                display: inline-block;
+                vertical-align: bottom;
+                width: 68%;
+                margin-left: 1%;
+            }
+        }
+
+        .copy {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+
+    .portfolio-proj {
+        article,
+        aside,
+        .media .descrip {
+            display: block;
+            width: 100%;
+        }
+
+        aside {
+            padding: 0;
+        }
+
+        header {
+            background-size: cover !important;
+            background-attachment: scroll !important;
+            height: 240px;
+
+            img {
+                width: 80%;
+                max-width: 400px;
+            }
+        }
+
+        h1 {
+            @include font-size(2.2);
+        }
+
+        .media .video,
+        .media img {
+            margin: auto;
+            display: block;
+            margin-bottom: 2em;
+        }
+
+        .proj_nav a i {
+            font-size: 1.2em;
+        }
+
+        header div {
+            width: 80%;
+        }
+    }
+
+    .manifesto-page .video-container {
+        display: block;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+}
