@@ -22,7 +22,6 @@ html {
 body {
     @include clearfix;
     color: $near-black;
-    // padding-top: 68px;
 }
 
 a {
@@ -32,13 +31,12 @@ a {
 
 section {
     @include clearfix;
-
     position: relative;
 }
 
-section.content {
-    padding: 6rem 0;
-}
+// section.content {
+//     padding: 6rem 0;
+// }
 
 section.title {
     padding: 2em 0;
@@ -83,7 +81,7 @@ ul, ol {
         position: absolute;
         bottom: -4px;
         left: 0;
-        transition: all 0.3s ease;
+        @include transition;
     }
 
     &:hover:after {
@@ -165,6 +163,20 @@ Pages: Index
 -------------------------------------------------------- 
 */
 
+.index section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    &:nth-child(odd){
+        background: $gray;
+    }
+}
+
+.index .title {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
 /* ----- Index: Header ----- */
 
 .index header {
@@ -208,10 +220,6 @@ Pages: Index
 /* ----- Index: Manifesto ----- */
 
 .manifesto {
-    background: $gray;
-    margin: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
     color: $charcoal;
     text-align: center;
     @include clearfix;
@@ -257,21 +265,39 @@ Pages: Index
 
     li:nth-child(1) a {
       background-color: $picton-blue;
+      &:hover{
+        background-color: darken($picton-blue, 10%);
+      }
     }
     li:nth-child(2) a {
       background-color: $emerald;
+      &:hover{
+        background-color: darken($emerald, 10%);
+      }
     }
     li:nth-child(3) a {
       background-color: $viking;
+      &:hover{
+        background-color: darken($viking, 10%);
+      }
     }
     li:nth-child(4) a {
       background-color: $cornflower;
+      &:hover{
+        background-color: darken($cornflower, 10%);
+      }
     }
     li:nth-child(5) a {
       background-color: $pelorous;
+      &:hover{
+        background-color: darken($pelorous, 10%);
+      }
     }
     li:nth-child(6) a {
       background-color: $picton-blue;
+      &:hover{
+        background-color: darken($picton-blue, 10%);
+      }
     }
 
     li.featured {
@@ -279,7 +305,7 @@ Pages: Index
     }
 
     li {
-        padding: 15px;
+        padding: 0 30px 30px 0;
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -299,16 +325,18 @@ Pages: Index
             -webkit-flex-direction: column;
             -ms-flex-direction: column;
             flex-direction: column;
-            // background-position: -300px 0;
             -webkit-box-flex: 1;
             -webkit-flex: 1;
             -ms-flex: 1;
             flex: 1;
+            @include transition;
 
             .title{
-              background-color: $white;
-              padding: 1.5rem;
-              border: 1px solid $light-gray;
+                background-color: rgba(255, 255, 255, 0.3);
+                color: $white;
+                padding: 1.5rem;
+                font-weight: 900;
+                @include font-size(1.2);
             }
 
             p {
@@ -323,31 +351,23 @@ Pages: Index
 /* ----- About ----- */
 
 .about {
-    aside {
-        display: inline-block;
-        width: 20%;
-        vertical-align: top;
-
-        .img-wrap {
-            width: 80%;
-            margin: auto auto 2em;
-
-            img {
-                width: 100%;
-                @include vendor-prefix(border-radius, 3px);
-            }
-        }
-
-        .btn {
-            margin-bottom: 1em;
-        }
+    .wrap {
+        width: 60%;
     }
 
-    .copy {
-        display: inline-block;
-        width: 75%;
-        margin-left: 4%;
-        vertical-align: top;
+    img {
+        float: left;
+        margin: 0 1rem 1rem 0;
+        width: 10rem;
+    }
+    
+    p {
+        margin-bottom: 1rem;
+    }
+    
+    span {
+        font-weight: 900;
+        color: $picton-blue;
     }
 }
 

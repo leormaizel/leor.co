@@ -17,8 +17,8 @@
 			</div>
 		</header>
 		<!-- manifesto -->
-		<div class="manifesto">
-			<div class="wrap">
+		<section class="manifesto">
+			<div clas="wrap">
 				<div class="quote">
 					<div class="prompt">What Makes Design
 						<div>"Human Centered?"</div>
@@ -34,22 +34,22 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!-- featured work -->
-		<section class="content">
+		<section class="work" id="work">
 			<div class="wrap">
-				<h2 class="title" id="work">featured work</h2>
+				<h2 class="title">featured work</h2>
 				<ul class="projects-wrap">
 					<li class="project featured">
 						<a href="uno">
 							<div class="title">BookingSuite Uno</div>
-							<p>An all-in-one hotel software solution.</p>
+							<p>An all-in-one hotel management solution that gives hotels all the tools needed to manage their business.</p>
 						</a>
 					</li>
 					<li class="project featured">
 						<a href="webcomplete">
 							<div class="title">BookingSuite WebComplete</div>
-							<p>A website Content Management System for hotels</p>
+							<p>A website Content Management System specifically tailred to the needs of hotels.</p>
 						</a>
 					</li>
 					<li class="project">
@@ -80,31 +80,19 @@
 			</div>
 		</section>
 		<!-- about -->
-		<section class="title">
-			<h2 class="about" id="about">about</h2>
-		</section>
-		<section class="white content about">
+		<section class="about" id="about">
 			<div class="wrap">
-				<aside>
-					<div class="img-wrap">
-						<img src="assets/img/leor.png" alt="Photo of Leor" />
-					</div>
-					<div class="btn-wrap">
-						<div class="btn"><a href="resume.pdf" target="_blank">resume (pdf)</a></div>
-						<div class="btn"><a href="http://99problems.quora.com/" target="_blank">blog</a></div>
-						<div class="btn"><a href="cartoons">cartoons</a></div>
-					</div>
-				</aside>
+				<h2 class="title">about</h2>
+				<img src="assets/img/leor.png" alt="Photo of Leor" />
 				<div class="copy">
-					<p>What can be said about Leor Maizel that hasn’t already been chronicled in poetry and song? At the age of 10 saved the King of Scotland from a charging bull. At the age of 15, Leor bested a steam-powered locomotive in a steel-driving race. By 25, Leor produced such seminal works as the “Happy Birthday” song, Post-it Notes and “Crafting with Cat Hair” ($8.44 on Amazon). Alas, at age 27 a mosquito bite in the Ganges River robbed Leor of his mental prowess; He has since become a UX Designer.</p>
-					<p>No really...I just like when things make sense.</p>
-					<p>In college I majored in Philosophy which taught me to judge every argument by asking "does the conclusion follow from the premises?" – a criterion that applies as critically to User Experience Design. What is the user's mental model when engaging with a digital product? Does the interface accommodate this mental model? Does it have logical information architecture and consistent design patterns? Matching a user's premises with the array of conclusions a product offers is one of the key challenges of User Experience Design.</p>
-				</p>
+					<p>There are many different usages of the terms “Product Designer” and “UX Designer” throughout the industry; I'm an interdisciplinarian. A generalist. I enjoy being involved in all stages of the user-centered design process and product lifecycle. My experience ranges from the the early, conceptual phase in helping define product requirements, sketching, wireframing and prototyping; to validation through user testing; to front-end implementation and frequent iteration.</p>
+					<p>I prize most highly the opportunity to learn voraciously from other skilled designers, and hone my abilities across the spectrum of product design disciplines.</p>
+					<p>Thanks for visiting and drop me a line: <span>leormaizel</span> at <span>gmail</span> dot <span>com</span></p>
+				</div>
 			</div>
-		</div>
-	</section>
-	<!-- footer -->
-	<?php include 'blocks/footer.php'; ?>
-	<?php include 'blocks/index-scripts.php'; ?>
-</body>
+		</section>
+		<!-- footer -->
+		<?php include 'blocks/footer.php'; ?>
+		<?php include 'blocks/index-scripts.php'; ?>
+	</body>
 </html>
