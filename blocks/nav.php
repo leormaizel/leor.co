@@ -1,4 +1,4 @@
-<nav id="topbar">
+<nav id="topbar" class="fullbar">
 	<div class="wrap">
 		<div class="logo-wrap">
 			<a href="index"></a>

@@ -34,9 +34,6 @@ section {
     position: relative;
 }
 
-// section.content {
-//     padding: 6rem 0;
-// }
 
 section.title {
     padding: 2em 0;
@@ -89,7 +86,12 @@ ul, ol {
     }
 }
 
-/* ----- Global: Nav/Footer ----- */
+.contact {
+    font-weight: 900;
+    color: $picton-blue;
+}
+
+/* ----- Global: Nav ----- */
 
 nav {
     
@@ -130,7 +132,6 @@ nav {
                 display: block;
                 padding: 0.2em 0.5em;
                 text-align: center;
-                @include vendor-prefix(border-radius, 3px);
                 @include transition;
                 &:hover {
                     // opacity: .7;
@@ -153,9 +154,76 @@ nav.fullbar {
   li a {
     color: $near-black;
   }
-
 }
 
+/* ----- Global: Header ----- */
+
+header {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    #canvas-basic {
+        opacity: .7;
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .tagline {
+        position: relative;
+        z-index: 2;
+        color: $white;
+    }
+}
+
+/* ----- Global: Footer ----- */
+
+footer {
+    padding: 3rem 0;
+
+    .logo-wrap a {
+        display: block;
+        height: 50px;
+        width: 50px;
+        margin: auto;
+        background: url(../assets/img/logo-white.png) center center no-repeat;
+        background-size: contain
+    }
+
+    ul {
+        margin-top: 2rem;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+             display: flex;
+             margin: 0 2rem;
+             color: $white;
+
+             a {
+                color: $white;
+             }
+        }
+    }
+
+}
 
 /* 
 -------------------------------------------------------- 
@@ -173,39 +241,19 @@ Pages: Index
 }
 
 .index .title {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 /* ----- Index: Header ----- */
 
 .index header {
-    display: block;
-    position: relative;
-    width: 100%;
     height: 60vh;
-    background: url(../assets/img/banner-index.jpg) center no-repeat;
-    background-size: cover;
-
-    #canvas-basic {
-        opacity: .7;
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-    }
+    background-image: url(../assets/img/banner-index.jpg);
 
     .tagline {
         padding: 15% 0 20%;
         text-align: center;
-        position: relative;
-        z-index: 2;
-        color: $white;
 
         h1 {
             @include font-size(6);
@@ -331,7 +379,7 @@ Pages: Index
             flex: 1;
             @include transition;
 
-            .title{
+            .project-title{
                 background-color: rgba(255, 255, 255, 0.3);
                 color: $white;
                 padding: 1.5rem;
@@ -348,7 +396,7 @@ Pages: Index
     }
 }
 
-/* ----- About ----- */
+/* ----- Index: About ----- */
 
 .about {
     .wrap {
@@ -364,183 +412,197 @@ Pages: Index
     p {
         margin-bottom: 1rem;
     }
-    
-    span {
-        font-weight: 900;
-        color: $picton-blue;
-    }
 }
 
-.index .bottom-stripe {
-    @include image-stripe(url(../assets/img/stripe-grass.jpg), 20em);
+/* ----- Index: Footer ----- */
+
+.index footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
 }
+
 
 /* 
 -------------------------------------------------------- 
-Pages: Portfolio Pages
+Pages: Portfolio Projects
 -------------------------------------------------------- 
 */
 
-.portfolio-proj.pb-na header {
-    @include image-stripe2(url(../assets/img/banner-pbweb.jpg), 12%);
-}
+/* ----- Portflio Projects: Header ----- */
 
-.portfolio-proj.li header {
-    @include image-stripe2(url(../assets/img/banner-li.jpg), 12%);
-}
+.portfolio-project header {
+    height: 20rem;
+    background-image: url(../assets/img/banner-index.jpg) ;
 
-.portfolio-proj.pbmobile header {
-    @include image-stripe2(url(../assets/img/banner-pbmobile.jpg), 12%);
-}
+    .tagline {
+        padding: 15% 0 1%;
+        text-align: left;
 
-.portfolio-proj.ep header {
-    @include image-stripe2(url(../assets/img/banner-ep.jpg), 12%);
-}
-
-.portfolio-proj.cm header {
-    @include image-stripe2(url(../assets/img/banner-cm.jpg), 12%);
-}
-
-.portfolio-proj.cnd header {
-    @include image-stripe2(url(../assets/img/banner-cnd.jpg), 12%);
-}
-
-.portfolio-proj.gtos header {
-    @include image-stripe2(url(../assets/img/banner-gtos.jpg), 12%);
-}
-
-.portfolio-proj.ou header {
-    @include image-stripe2(url(../assets/img/banner-ou.jpg), 12%);
-}
-
-.portfolio-proj {
-    header {
-        img {
-            position: relative;
-            z-index: 1;
-            margin: auto;
-            display: block;
-            width: 40%;
-            max-width: 803px;
-            margin-bottom: -12%;
-        }
-    }
-
-    h1 {
-        @include font-size(3);
-
-        padding-top: 20px;
-        padding-top: 2rem;
-        padding-bottom: 50px;
-        padding-bottom: 5rem;
-        background-color: rgba(255, 255, 255, 0.8);
-        position: relative;
-        z-index: 100;
-    }
-
-    section.content {
-        padding-top: 12%;
-    }
-
-    article {
-        display: inline-block;
-        vertical-align: top;
-        width: 70%;
-        margin-right: 3%;
-
-        ul {
-            margin-bottom: 2em;
-
-            li {
-                list-style-type: circle;
-                margin-left: 15px;
-            }
-        }
-    }
-
-    aside {
-        display: inline-block;
-        vertical-align: top;
-        width: 26%;
-        padding: 2% 2% 3%;
-
-        h3 {
-            border-bottom: 1px solid $near-black;
-            padding-bottom: 0.3em;
-        }
-    }
-
-    .images figure {
-        width: 80%;
-        margin: 3em auto;
-        background-color: $near-black;
-
-        img {
-            display: block;
-            max-width: 100%;
-            margin: auto;
-        }
-
-        figcaption {
-            background-color: $near-black;
-            color: $white;
-            padding: 1em;
-        }
-    }
-
-    .media {
-        margin-bottom: 4em;
-
-        h4 {
-            margin-bottom: 3em;
-        }
-
-        .video,
-        img {
-            display: inline-block;
-            vertical-align: top;
-            max-width: 406px !important;
-            width: 40% !important;
-        }
-
-        .descrip {
-            display: inline-block;
-            vertical-align: top;
-            width: 58%;
-            margin-left: 1%;
-        }
-    }
-
-    .proj_nav {
-        position: fixed;
-        top: 50%;
-        width: 100%;
-        height: 3.125em;
-        text-align: center;
-        z-index: 3;
-
-        a {
-            line-height: 3.125em;
-            background-color: $gray;
-            opacity: 0.5;
-        }
-
-        a.prev {
-            position: absolute;
-            left: 0px;
-        }
-
-        a.next {
-            position: absolute;
-            right: 0px;
-        }
-
-        a i {
-            font-size: 3.125em;
-            line-height: 1.25em;
+        h1 {
+            @include font-size(3);
         }
     }
 }
+
+// .portfolio-proj.pb-na header {
+//     @include image-stripe2(url(../assets/img/banner-pbweb.jpg), 12%);
+// }
+
+// .portfolio-proj.li header {
+//     @include image-stripe2(url(../assets/img/banner-li.jpg), 12%);
+// }
+
+// .portfolio-proj.pbmobile header {
+//     @include image-stripe2(url(../assets/img/banner-pbmobile.jpg), 12%);
+// }
+
+// .portfolio-proj.ep header {
+//     @include image-stripe2(url(../assets/img/banner-ep.jpg), 12%);
+// }
+
+// .portfolio-proj.cm header {
+//     @include image-stripe2(url(../assets/img/banner-cm.jpg), 12%);
+// }
+
+// .portfolio-proj.cnd header {
+//     @include image-stripe2(url(../assets/img/banner-cnd.jpg), 12%);
+// }
+
+// .portfolio-proj.gtos header {
+//     @include image-stripe2(url(../assets/img/banner-gtos.jpg), 12%);
+// }
+
+// .portfolio-proj.ou header {
+//     @include image-stripe2(url(../assets/img/banner-ou.jpg), 12%);
+// }
+
+// .portfolio-proj {
+//     header {
+//         img {
+//             position: relative;
+//             z-index: 1;
+//             margin: auto;
+//             display: block;
+//             width: 40%;
+//             max-width: 803px;
+//             margin-bottom: -12%;
+//         }
+//     }
+
+//     h1 {
+//         @include font-size(3);
+
+//         padding-top: 20px;
+//         padding-top: 2rem;
+//         padding-bottom: 50px;
+//         padding-bottom: 5rem;
+//         background-color: rgba(255, 255, 255, 0.8);
+//         position: relative;
+//         z-index: 100;
+//     }
+
+//     section.content {
+//         padding-top: 12%;
+//     }
+
+//     article {
+//         display: inline-block;
+//         vertical-align: top;
+//         width: 70%;
+//         margin-right: 3%;
+
+//         ul {
+//             margin-bottom: 2em;
+
+//             li {
+//                 list-style-type: circle;
+//                 margin-left: 15px;
+//             }
+//         }
+//     }
+
+//     aside {
+//         display: inline-block;
+//         vertical-align: top;
+//         width: 26%;
+//         padding: 2% 2% 3%;
+
+//         h3 {
+//             border-bottom: 1px solid $near-black;
+//             padding-bottom: 0.3em;
+//         }
+//     }
+
+//     .images figure {
+//         width: 80%;
+//         margin: 3em auto;
+//         background-color: $near-black;
+
+//         img {
+//             display: block;
+//             max-width: 100%;
+//             margin: auto;
+//         }
+
+//         figcaption {
+//             background-color: $near-black;
+//             color: $white;
+//             padding: 1em;
+//         }
+//     }
+
+//     .media {
+//         margin-bottom: 4em;
+
+//         h4 {
+//             margin-bottom: 3em;
+//         }
+
+//         .video,
+//         img {
+//             display: inline-block;
+//             vertical-align: top;
+//             max-width: 406px !important;
+//             width: 40% !important;
+//         }
+
+//         .descrip {
+//             display: inline-block;
+//             vertical-align: top;
+//             width: 58%;
+//             margin-left: 1%;
+//         }
+//     }
+
+//     .proj_nav {
+//         position: fixed;
+//         top: 50%;
+//         width: 100%;
+//         height: 3.125em;
+//         text-align: center;
+//         z-index: 3;
+
+//         a {
+//             line-height: 3.125em;
+//             background-color: $gray;
+//             opacity: 0.5;
+//         }
+
+//         a.prev {
+//             position: absolute;
+//             left: 0px;
+//         }
+
+//         a.next {
+//             position: absolute;
+//             right: 0px;
+//         }
+
+//         a i {
+//             font-size: 3.125em;
+//             line-height: 1.25em;
+//         }
+//     }
+// }
 
 /* 
 -------------------------------------------------------- 
@@ -581,34 +643,6 @@ Pages: Manifesto & Cartoons
         left: 0;
         width: 100%;
         height: 100%;
-    }
-}
-
-.cartoons {
-    header {
-        @include image-stripe(url(../assets/img/stripe-wood.jpg), 25em);
-    }
-
-    .bottom-stripe {
-        @include image-stripe(url(../assets/img/stripe-thistle.jpg), 50em);
-    }
-}
-
-.cartoons figure {
-    width: 80%;
-    margin: 3em auto;
-    background-color: $near-black;
-
-    img {
-        display: block;
-        max-width: 100%;
-        margin: auto;
-    }
-
-    figcaption {
-        background-color: $near-black;
-        color: $white;
-        padding: 1em;
     }
 }
 
