@@ -7,7 +7,7 @@
 	
 	<body class="index">
 		<?php include_once("analyticstracking.php") ?>
-		
+
 		<!-- header -->
 		<?php include 'blocks/nav-index.php'; ?>
 		<header>
@@ -43,25 +43,25 @@
 				<ul class="projects-wrap">
 					<li class="project featured">
 						<a href="uno">
-							<div class="project-title">BookingSuite Uno</div>
+							<div class="project-title">BookingSuite: Uno</div>
 							<p>An all-in-one hotel management solution that gives hotels all the tools needed to manage their business.</p>
 						</a>
 					</li>
 					<li class="project featured">
 						<a href="webcomplete">
-							<div class="project-title">BookingSuite WebComplete</div>
+							<div class="project-title">BookingSuite: Web Family</div>
 							<p>A website Content Management System specifically tailred to the needs of hotels.</p>
 						</a>
 					</li>
 					<li class="project">
 						<a href="bookingsuite-website">
-							<div class="project-title">BookingSuite Website</div>
+							<div class="project-title">BookingSuite: Website Redesign</div>
 							<p>A revamp of BookingSuite’s global corporate website</p>
 						</a>
 					</li>
 					<li class="project">
 						<a href="keyword-search">
-							<div class="project-title">PitchBook Keyword Search</div>
+							<div class="project-title">PitchBook: Keyword Search</div>
 							<p>Improving the search resuts page of the PitchBook platform</p>
 						</a>
 					</li>
@@ -73,7 +73,7 @@
 					</li>
 					<li class="project">
 						<a href="linkedin-integration">
-							<div class="project-title">PitchBook LinkedIn Integration</div>
+							<div class="project-title">PitchBook Feature Design</div>
 							<p>A collection of features and data visualization tools for the Pitchbook platform.</p>
 						</a>
 					</li>
@@ -93,7 +93,7 @@
 			</div>
 		</section>
 		<!-- footer -->
-		<?php include 'blocks/footer.php'; ?>
+		<?php include 'blocks/footer-index.php'; ?>
 		<?php include 'blocks/index-scripts.php'; ?>
 	</body>
 </html>

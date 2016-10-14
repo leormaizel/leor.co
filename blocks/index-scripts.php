@@ -8,8 +8,6 @@ $(window).scroll(function() {
 				$("#topbar").removeClass("fullbar");
 		}
 });
-</script>
-<script>
 //Smooth scroll from nav anchor to body
 $(function() {
 $('a[href*="#"]:not([href="#"])').click(function() {
@@ -25,8 +23,6 @@ $('a[href*="#"]:not([href="#"])').click(function() {
 	}
 });
 });
-</script>
-<script>
 //Gradient genrator for header section
 var granimInstance = new Granim({
 element: '#canvas-basic',
