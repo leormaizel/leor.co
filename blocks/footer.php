@@ -5,10 +5,10 @@
 		</div>
 		<ul class="footer-links">
 			<li>
-				<a class="link" href="resume.pdf" target="_blank">resum&eacute;</a>
+				<a class="link nav" href="resume.pdf" target="_blank">resum&eacute;</a>
 			</li>
 			<li>
-				<a class="link" href="http://www.linkedin.com/in/leormaizel/" target="_blank">linkedin</a>
+				<a class="link nav" href="http://www.linkedin.com/in/leormaizel/" target="_blank">linkedin</a>
 			</li>
 			
 		</ul>

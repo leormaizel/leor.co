@@ -13,8 +13,10 @@
 		<?php include 'blocks/nav.php'; ?>
 		<header>
 			<canvas id="canvas-basic"></canvas>
-			<div class="wrap tagline">
-				<h1>BookingSuite: Uno</h1>
+			<div class="wrap">
+				<div class="tagline">
+					<h1>BookingSuite: Uno</h1>
+				</div>
 			</div>
 		</header>
 		<!-- work -->

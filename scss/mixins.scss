@@ -4,6 +4,103 @@ Mixins
 -------------------------------------------------------- 
 */
 
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin flex-wrap($value: nowrap) {
+    -webkit-flex-wrap: $value;
+    -moz-flex-wrap: $value;
+    @if $value == nowrap {
+        -ms-flex-wrap: none;
+    } @else { 
+        -ms-flex-wrap: $value; 
+    }
+    flex-wrap: $value;
+}
+
+@mixin justify-content($value: flex-start) {
+    @if $value == flex-start {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+    } @else if $value == flex-end {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+    } @else if $value == space-between {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+    } @else if $value == space-around {
+        -ms-flex-pack: distribute;      
+    } @else {
+        -webkit-box-pack: $value;
+        -ms-flex-pack: $value;
+    }
+    -webkit-justify-content: $value;
+    -moz-justify-content: $value;
+    justify-content: $value;
+}
+
+@mixin flex-direction($value: row) {
+    @if $value == row-reverse {
+        -webkit-box-direction: reverse;
+        -webkit-box-orient: horizontal;
+    } @else if $value == column {
+        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+    } @else if $value == column-reverse {
+        -webkit-box-direction: reverse;
+        -webkit-box-orient: vertical;
+    } @else {
+        -webkit-box-direction: normal;
+        -webkit-box-orient: horizontal;
+    }
+    -webkit-flex-direction: $value;
+    -moz-flex-direction: $value;
+    -ms-flex-direction: $value;
+    flex-direction: $value;
+}
+
+@mixin flex-grow($int: 0) {
+    -webkit-box-flex: $int;
+    -webkit-flex-grow: $int;
+    -moz-flex-grow: $int;
+    -ms-flex-positive: $int;
+    flex-grow: $int;
+}
+
+@mixin align-items($value: stretch) {
+    @if $value == flex-start {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+    } @else if $value == flex-end {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+    } @else {
+        -webkit-box-align: $value;
+        -ms-flex-align: $value;
+    }
+    -webkit-align-items: $value;
+    -moz-align-items: $value;
+    align-items: $value;
+}
+
+@mixin align-self($value: auto) {
+    -webkit-align-self: $value;
+    -moz-align-self: $value;
+    @if $value == flex-start {
+        -ms-flex-item-align: start;
+    } @else if $value == flex-end {
+        -ms-flex-item-align: end;
+    } @else {
+        -ms-flex-item-align: $value;
+    }
+    align-self: $value;
+}
+
 @mixin vendor-prefix($name, $argument) {
     -webkit-#{$name}: #{$argument};
     -ms-#{$name}: #{$argument};
@@ -18,28 +115,6 @@ Mixins
     -ms-transition: $transition-property $transition-time $method;
     -o-transition: $transition-property $transition-time $method;
     transition: $transition-property $transition-time $method;
-}
-
-@mixin image-stripe($background-image, $min-height, $background-attachment: fixed, $background-position: 0 0, $padding: 4em 0 12em) {
-    background-image: $background-image;
-    background-attachment: $background-attachment;
-    background-position: $background-position;
-    min-height: $min-height;
-    padding: $padding;
-    background-repeat: no-repeat;
-    width: 100%;
-
-    @include vendor-prefix(background-size, cover);
-}
-
-@mixin image-stripe2($background-image, $padding, $background-attachment: fixed, $background-position: 0 0) {
-    background-image: $background-image;
-    padding-top: $padding;
-    background-attachment: $background-attachment;
-    background-position: $background-position;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-size: 100%;
 }
 
 @mixin clearfix {

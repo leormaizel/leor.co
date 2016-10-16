@@ -12,9 +12,11 @@
 		<?php include 'blocks/nav-index.php'; ?>
 		<header>
 			<canvas id="canvas-basic"></canvas>
-			<div class="wrap tagline">
-				<h1>leor maizel</h1>
-				<h2>ux designer</h2>
+			<div class="wrap">
+				<div class="tagline">
+					<h1>leor maizel</h1>
+					<h2>ux designer</h2>
+				</div>
 			</div>
 		</header>
 		<!-- manifesto -->
@@ -29,11 +31,9 @@
 						<div class="attrib">&mdash; Jaron Lanier</div>
 					</blockquote>
 				</div>
-				<div class="container">
-					<a class="link" href="manifesto">
-						<span>read on</span>
-					</a>
-				</div>
+				<a class="link" href="manifesto">
+					<span>read on</span>
+				</a>
 			</div>
 		</section>
 		<!-- featured work -->
@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="project featured">
-						<a href="webcomplete">
+						<a href="webfamily">
 							<div class="project-title">BookingSuite: Web Family</div>
 							<p>A website Content Management System specifically tailred to the needs of hotels.</p>
 						</a>

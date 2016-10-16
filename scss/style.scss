@@ -16,11 +16,10 @@ Global
 
 html {
     background-color: $white;
-    position: relative;
+    // position: relative;
 }
 
 body {
-    @include clearfix;
     color: $near-black;
 }
 
@@ -29,21 +28,10 @@ a {
     text-decoration: none;
 }
 
-section {
-    @include clearfix;
-    position: relative;
-}
-
-
-section.title {
-    padding: 2em 0;
-}
-
 .wrap {
     width: 80%;
     max-width: 75rem;
     margin: auto;
-    @include clearfix;
 }
 
 ul, ol {
@@ -55,24 +43,20 @@ ul, ol {
 .link {
     display: inline-block;
     position: relative;
-    transition: all 0.3s ease 
+    @include transition; 
 
     span {
         position: relative;
-        color: #40b3b9;
-        background: -webkit-linear-gradient(left, #2BABB1, #35CDAC);
+        color: $viking;
+        background: $viking;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        transition: all 0.3s ease;
+        @include transition;
     };
 
     &:after {
         content: '';
-        background: -webkit-linear-gradient(left, #2BABB1, #35CDAC);
-        background: -moz-linear-gradient(left, #2BABB1, #35CDAC);
-        background: -o-linear-gradient(left, #2BABB1, #35CDAC);
-        background: -ms-linear-gradient(left, #2BABB1, #35CDAC);
-        background: linear-gradient(left, #2BABB1, #35CDAC);
+        background-color: $viking;
         width: 0%;
         height: 4px;
         position: absolute;
@@ -86,77 +70,94 @@ ul, ol {
     }
 }
 
-.contact {
-    font-weight: 900;
-    color: $picton-blue;
+.nav.link {
+    color: $white;
+
+    span {
+        color: #fff;
+        background: #fff;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    };
+
+    &:after {
+        background-color: $white;
+    }
+}
+
+nav.fullbar .nav.link {
+    color: $near-black;
+
+    span {
+        color: $near-black;
+        background: $near-black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    };
+
+    &:after {
+        background-color: $near-black;
+    }
 }
 
 /* ----- Global: Nav ----- */
 
+.logo-wrap a {
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
 nav {
-    
     position: fixed;
     z-index: 9999;
     width: 100%;
     top: 0;
     padding: .5em;
-    @include font-size(1.1);
-    @include transition;
-    @include clearfix;
 
-    .logo-wrap {
-        vertical-align: middle;
-        display: inline-block;
+    .wrap {
+        @include flexbox;
+        @include flex-direction(row);
+        @include align-items(center);
+        @include justify-content(space-between);
+    }
 
-        a {
-            display: block;
-            height: 50px;
-            width: 50px;
-            background: url(../assets/img/logo-white.png) center center no-repeat;
-            background-size: contain
-        }
+    .logo-wrap a {
+        background: url(../assets/img/logo-white.png) center center no-repeat;
+        background-size: contain;
     }
 
     ul {
-        width: 80%;
-        text-align: right;
-        vertical-align: middle;
-        display: inline-block;
+        @include flexbox;
+        @include align-items(center);
 
         li {
-            margin: 0 3%;
-            display: inline-block;
-
-            a {
-                color: $white;
-                display: block;
-                padding: 0.2em 0.5em;
-                text-align: center;
-                @include transition;
-                &:hover {
-                    // opacity: .7;
-                    // font-weight: 900;
-                }
-            }
+            margin-left: 3rem;
         }
     }
 }
 
 nav.fullbar {
-  background: $white;
-  @include vendor-prefix(box-shadow, 0px 0px 8px 1px rgba(168,168,168,0.5));
+    background: $white;
+    @include transition(all, 0.5s, ease-in-out);
+    @include vendor-prefix(box-shadow, 0px 0px 8px 1px rgba(168,168,168,0.5));
 
-  .logo-wrap a {
-    background: url(../assets/img/logo-black.png) center center no-repeat;
-    background-size: contain;
-  }
+    .logo-wrap a {
+        background: url(../assets/img/logo-black.png) center center no-repeat;
+        background-size: contain;
+    }
 
-  li a {
-    color: $near-black;
-  }
+    li a {
+        color: $near-black;
+    }
 }
 
 /* ----- Global: Header ----- */
+
+header .wrap {
+    position: relative;
+    height: 100%;
+}
 
 header {
     display: block;
@@ -193,36 +194,31 @@ footer {
     padding: 3rem 0;
 
     .logo-wrap a {
-        display: block;
-        height: 50px;
-        width: 50px;
         margin: auto;
         background: url(../assets/img/logo-white.png) center center no-repeat;
-        background-size: contain
+        background-size: contain;
     }
 
     ul {
         margin-top: 2rem;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        justify-content: center;
+        @include flexbox;
+        @include flex-wrap(wrap);
+        @include justify-content(center);
 
         li {
-             display: flex;
              margin: 0 2rem;
-             color: $white;
+             // color: $white;
+             @include flexbox;
 
              a {
-                color: $white;
+                // color: $white;
+             }
+
+             .link:after {
+                // background: $white;
              }
         }
     }
-
 }
 
 /* 
@@ -248,11 +244,11 @@ Pages: Index
 /* ----- Index: Header ----- */
 
 .index header {
-    height: 60vh;
+    height: 40rem;
     background-image: url(../assets/img/banner-index.jpg);
 
     .tagline {
-        padding: 15% 0 20%;
+        padding-top: 10rem;
         text-align: center;
 
         h1 {
@@ -270,7 +266,7 @@ Pages: Index
 .manifesto {
     color: $charcoal;
     text-align: center;
-    @include clearfix;
+    // @include clearfix;
 
     .prompt {
         @include font-size(1.6);
@@ -293,23 +289,18 @@ Pages: Index
         @include font-size(1);
     }
 
-    .container {
-        position: relative;
-        text-align: center;
-    }
+    // .link {
+    //     position: relative;
+    //     text-align: center;
+    // }
 }
 
 /* ----- Index: Work ----- */
 
 .projects-wrap {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flexbox;
+    @include flex-wrap(wrap);
+    @include justify-content(center);
 
     li:nth-child(1) a {
       background-color: $picton-blue;
@@ -354,29 +345,16 @@ Pages: Index
 
     li {
         padding: 0 30px 30px 0;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
         position: relative;
         width: 33.333%;
+        @include flexbox;
 
         a {
             min-height: 200px;
             display: block;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -webkit-box-direction: normal;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            -webkit-box-flex: 1;
-            -webkit-flex: 1;
-            -ms-flex: 1;
-            flex: 1;
+            @include flexbox;
+            @include flex-direction(column);
+            @include flex-grow(1)
             @include transition;
 
             .project-title{
@@ -400,7 +378,7 @@ Pages: Index
 
 .about {
     .wrap {
-        width: 60%;
+        max-width: 50rem;
     }
 
     img {
@@ -412,11 +390,20 @@ Pages: Index
     p {
         margin-bottom: 1rem;
     }
+
+    .contact {
+        font-weight: 900;
+        color: $picton-blue;
+    }
 }
 
 /* ----- Index: Footer ----- */
 
 .index footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
+
+.uno footer {
     background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
 }
 
@@ -434,7 +421,8 @@ Pages: Portfolio Projects
     background-image: url(../assets/img/banner-index.jpg) ;
 
     .tagline {
-        padding: 15% 0 1%;
+        position: absolute;
+        bottom: 1px;
         text-align: left;
 
         h1 {
@@ -505,12 +493,12 @@ Pages: Portfolio Projects
     width: 90%;
     max-width: 70rem;
     margin: auto;
-    display: -webkit-box;
-    display: flex;
     flex-flow: row wrap;
-    -webkit-box-pack: justify;
-    justify-content: space-around;
     padding-bottom: 2rem;
+    @include flexbox;
+    @include justify-content(space-around);
+    @include flex-direction;
+    @include flex-wrap(wrap);
 
     .figure {
         margin: 20px 0;
@@ -520,25 +508,7 @@ Pages: Portfolio Projects
             border: 1px solid rgb(235, 235, 236);
         }
     }
-
-    // .embed {
-    //     position: relative;
-    //     padding-bottom: 56.25%;
-    //     padding-top: 35px;
-    //     height: 0;
-    //     overflow: hidden;
-
-    //         iframe {
-    //             position: absolute;
-    //             top:0;
-    //             left: 0;
-    //             width: 100%;
-    //             height: 100%;
-    //         }
-    // }
 }
-
-
 
 /* 
 -------------------------------------------------------- 
@@ -546,14 +516,8 @@ Pages: Manifesto & Cartoons
 -------------------------------------------------------- 
 */
 
-.manifesto-page {
-    header {
-        @include image-stripe(url(../assets/img/stripe-waves.jpg), 25em);
-    }
 
-    .bottom-stripe {
-        @include image-stripe(url(../assets/img/stripe-tracks.jpg), 50em);
-    }
+.manifesto-page {
 
     blockquote {
         width: 50%;
@@ -588,116 +552,5 @@ Media Queries
 -------------------------------------------------------- 
 */
 
-@media all and (max-width: $med) {
-    .index header,
-    .index .bottom-stripe,
-    .manifesto-page header,
-    .manifesto-page .bottom-stripe,
-    .cartoons header,
-    .cartoons .bottom-stripe {
-        background-attachment: scroll !important;
-        min-width: 100%;
+// @media all and (max-width: $med) {}
 
-        /*min-height: 100%;*/
-    }
-
-    .wrap {
-        width: 90%;
-    }
-
-    .btn {
-        max-width: 100%;
-    }
-
-    .manifesto {
-        .vs {
-            display: none;
-        }
-
-        blockquote {
-            width: 100%;
-            padding: 2em;
-        }
-    }
-
-    .portfolio-projects figure {
-        float: none;
-        width: 100%;
-        margin: 2em 1%;
-    }
-
-    .about {
-        aside {
-            display: block;
-            width: 100%;
-
-            .img-wrap {
-                width: 30%;
-                display: inline-block;
-                vertical-align: top;
-                margin-bottom: 0.6em;
-            }
-
-            .btn-wrap {
-                display: inline-block;
-                vertical-align: bottom;
-                width: 68%;
-                margin-left: 1%;
-            }
-        }
-
-        .copy {
-            width: 100%;
-            margin-left: 0;
-        }
-    }
-
-    .portfolio-proj {
-        article,
-        aside,
-        .media .descrip {
-            display: block;
-            width: 100%;
-        }
-
-        aside {
-            padding: 0;
-        }
-
-        header {
-            background-size: cover !important;
-            background-attachment: scroll !important;
-            height: 240px;
-
-            img {
-                width: 80%;
-                max-width: 400px;
-            }
-        }
-
-        h1 {
-            @include font-size(2.2);
-        }
-
-        .media .video,
-        .media img {
-            margin: auto;
-            display: block;
-            margin-bottom: 2em;
-        }
-
-        .proj_nav a i {
-            font-size: 1.2em;
-        }
-
-        header div {
-            width: 80%;
-        }
-    }
-
-    .manifesto-page .video-container {
-        display: block;
-        width: 100%;
-        margin-bottom: 2em;
-    }
-}
