@@ -416,7 +416,7 @@ Pages: Portfolio Projects
 
 /* ----- Portflio Projects: Header ----- */
 
-.portfolio-project header {
+header {
     height: 20rem;
     background-image: url(../assets/img/banner-index.jpg) ;
 
@@ -433,81 +433,152 @@ Pages: Portfolio Projects
 
 /* ----- Portflio Projects: Content ----- */
 
-.portfolio-project section {
-    padding-bottom: 2rem;
-    font-family:'vollkorn', sans-serif;
-    @include font-size(1.2);
-}
+.portfolio-project {
 
-.portfolio-project .background {
-    background-color: $light-gray;
-    padding-top: 2rem;
-}
+    section {
+        padding-bottom: 2rem;
+        font-family:'vollkorn', sans-serif;
+        @include font-size(1.2);
+    
 
-.portfolio-project .background + section {
-    padding-top: 2rem;
-}
+        &.background {
+            background-color: $light-gray;
+            padding-top: 2rem;
+        }
 
-.portfolio-project section .wrap {
-    max-width: 45rem;
-}
+        &.background + section {
+            padding-top: 2rem;
+        }
 
-.portfolio-project h2 {
-    font-family: 'avenir', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    position: relative;
-    margin: 1rem 0 1rem;
-    @include font-size (0.8);
+        & .wrap {
+            max-width: 45rem;
+        }
 
-    &:after {
-        content: "";
-        position: absolute;
-        margin-left: 0.5em;
-        top: 36%;
-        width: 3rem;
-        height: 2px;
-    }
-}
+        p,
+        ul {
+            margin: 1rem 0 1rem;
+        }
 
-.portfolio-project.uno h2:after {
-    background: $picton-blue;
-}
+        ul {
+            padding-left: 1.5rem;
+            @include font-size(1);
 
-.portfolio-project section p,
-.portfolio-project section ul {
-    margin: 1rem 0 1rem;
-}
-
-
-.portfolio-project section ul {
-    padding-left: 1.5rem;
-    @include font-size(1);
-
-    li:before {
-        content: "\0BB \020";
-    }
-}
-
-.portfolio-project .gallery {
-    width: 90%;
-    max-width: 70rem;
-    margin: auto;
-    flex-flow: row wrap;
-    padding-bottom: 2rem;
-    @include flexbox;
-    @include justify-content(space-around);
-    @include flex-direction;
-    @include flex-wrap(wrap);
-
-    .figure {
-        margin: 20px 0;
-
-        img {
-            width: 100%;
-            border: 1px solid rgb(235, 235, 236);
+            li:before {
+                content: "\0BB \020";
+            }
         }
     }
+
+    .item-title {
+            font-family: 'avenir', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+            position: relative;
+            margin: 1rem 0 1rem;
+            @include font-size (0.8);
+
+            &:not(.next-item):after {
+                content: "";
+                position: absolute;
+                margin-left: 0.5em;
+                top: 36%;
+                width: 3rem;
+                height: 2px;
+            }
+
+            &.next-item:before{
+                content: "";
+                position: absolute;
+                margin-right: 0.5em;
+                top: 36%;
+                width: 3rem;
+                height: 2px;
+                left: -44%;
+            } 
+        }
+
+    .gallery {
+        width: 90%;
+        max-width: 70rem;
+        margin: auto;
+        padding-bottom: 2rem;
+
+
+        &:not(.no-flexbox) {
+            @include flexbox;
+            @include justify-content(center);
+            @include flex-direction;
+            @include flex-wrap(wrap);
+        }
+
+            .figure {
+                margin: 1rem;
+                max-width: 20rem;
+
+                img {
+                    width: 100%;
+                    border: 1px solid rgb(235, 235, 236);
+                }
+            }
+
+            p {
+                @include font-size(0.9);
+            }
+
+            & > p {
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 2rem;
+            }
+    }
+    .gallery.no-flexbox .figure {
+        margin: auto;
+    }
+
+    .project-nav {
+        background-color: $light-gray;
+        text-align: center;
+        border-bottom: 2px solid $white;
+        margin-top: 3rem;
+        @include flexbox;
+        @include justify-content(space-between);
+
+        .direction {
+            width: 100%
+        }
+
+        .direction.previous{
+            border-right: 2px solid $white;
+
+            a {
+                text-align: left;
+            }
+        }
+
+        a {
+            display: inline-block;
+            padding: 5rem 0;
+            text-align: right;
+
+            div {
+                width: 100%
+            }
+
+            span {
+                color: $charcoal
+            }
+
+            p {
+
+            }
+        }
+    }
+}
+
+.portfolio-project.uno .item-title:after,
+.portfolio-project.uno .item-title.next-item:before {
+    background: $picton-blue;
 }
 
 /* 

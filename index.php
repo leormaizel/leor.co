@@ -49,7 +49,7 @@
 					</li>
 					<li class="project featured">
 						<a href="webfamily">
-							<div class="project-title">BookingSuite: Web Family</div>
+							<div class="project-title">BookingSuite: WebDirect+</div>
 							<p>A website Content Management System specifically tailred to the needs of hotels.</p>
 						</a>
 					</li>
