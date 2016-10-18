@@ -48,7 +48,7 @@
 						</a>
 					</li>
 					<li class="project featured">
-						<a href="webfamily">
+						<a href="webdirect">
 							<div class="project-title">BookingSuite: WebDirect+</div>
 							<p>A website Content Management System specifically tailred to the needs of hotels.</p>
 						</a>
@@ -72,7 +72,7 @@
 						</a>
 					</li>
 					<li class="project">
-						<a href="linkedin-integration">
+						<a href="pb-feature-design">
 							<div class="project-title">PitchBook Feature Design</div>
 							<p>A collection of features and data visualization tools for the Pitchbook platform.</p>
 						</a>

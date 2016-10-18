@@ -4,8 +4,8 @@
 			<a href="index"></a>
 		</div>
 		<ul>
-			<li><a href="index#work" class="scroll">work</a></li>
-			<li><a href="index#about" class="scroll">about</a></li>
+			<li><a class="link nav" href="index#work">work</a></li>
+			<li><a class="link nav" href="index#about">about</a></li>
 		</ul>
 	</div>
 </nav>

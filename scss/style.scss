@@ -266,7 +266,6 @@ Pages: Index
 .manifesto {
     color: $charcoal;
     text-align: center;
-    // @include clearfix;
 
     .prompt {
         @include font-size(1.6);
@@ -288,11 +287,6 @@ Pages: Index
         margin-top: 2rem;
         @include font-size(1);
     }
-
-    // .link {
-    //     position: relative;
-    //     text-align: center;
-    // }
 }
 
 /* ----- Index: Work ----- */
@@ -402,11 +396,24 @@ Pages: Index
 .index footer {
     background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
 }
-
 .uno footer {
     background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
 }
-
+.webdirect footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
+.bks-website footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
+.keyword-search footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
+.news-analysis footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
+.pb-feature footer {
+    background-image: linear-gradient(-270deg, rgb(13, 195, 204) 0%, rgb(53, 205, 172) 100%);
+}
 
 /* 
 -------------------------------------------------------- 
@@ -416,7 +423,7 @@ Pages: Portfolio Projects
 
 /* ----- Portflio Projects: Header ----- */
 
-header {
+.portfolio-project header {
     height: 20rem;
     background-image: url(../assets/img/banner-index.jpg) ;
 
@@ -580,6 +587,27 @@ header {
 .portfolio-project.uno .item-title.next-item:before {
     background: $picton-blue;
 }
+.portfolio-project.webdirect .item-title:after,
+.portfolio-project.webdirect .item-title.next-item:before {
+    background: $emerald;
+}
+.portfolio-project.bks-website .item-title:after,
+.portfolio-project.bks-website .item-title.next-item:before {
+    background: $viking;
+}
+.portfolio-project.keyword-search .item-title:after,
+.portfolio-project.keyword-search .item-title.next-item:before {
+    background: $cornflower;
+}
+.portfolio-project.news-analysis .item-title:after,
+.portfolio-project.news-analysis .item-title.next-item:before {
+    background: $pelorous;
+}
+.portfolio-project.pb-feature .item-title:after,
+.portfolio-project.pb-feature .item-title.next-item:before {
+    background: $picton-blue;
+}
+
 
 /* 
 -------------------------------------------------------- 

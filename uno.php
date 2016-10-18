@@ -196,10 +196,10 @@
 		    </div>
 
 		    <div class="direction next">
-		        <a href="/webdirect" rel="next" title="Next Project: BookingSuite: Web Family">
+		        <a href="/webdirect" rel="next" title="Next Project: BookingSuite WebDirect+">
 		          <div>
 		            <span class="item-title next-item">Next Project</span>
-		            <h3>BookingSuite: WebDirect+</h3>
+		            <h3>BookingSuite WebDirect+</h3>
 		          </div>
 		        </a>
 		    </div>

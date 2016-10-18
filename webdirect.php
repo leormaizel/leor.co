@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/fluidbox.min.css" />
 	</head>
 	
-	<body class="portfolio-project uno">
+	<body class="portfolio-project webdirect">
 		<?php include_once("analyticstracking.php") ?>
 		
 		<!-- header -->
@@ -32,7 +32,7 @@
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">Page Builder</h2>
-				<p>lients with more sophisticated content requirements need to be able to create their own customized pages, whether for a promotion, an article about the history of the hotel, etc. The goal was to design a full-featured WYSIWYG editor, but as I found in my user tests, even the best of such products––Squarespace, Wix, and Weebly––are often described as “finicky” and "hard to use." I needed to find the right balance between robust functionality and UI limitations.</p>
+				<p>Clients with more sophisticated content requirements need to be able to create their own customized pages, whether for a promotion, an article about the history of the hotel, etc. The goal was to design a full-featured WYSIWYG editor, but as I found in my user tests, even the best of such products––Squarespace, Wix, and Weebly––are often described as “finicky” and "hard to use." I needed to find the right balance between robust functionality and UI limitations.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -184,19 +184,19 @@
 
 		<div class="project-nav">
 		    <div class="direction previous">
-		        <a href="/uno" rel="prev" title="Previous Project: Pitchbook Feature Design">
+		        <a href="/uno" rel="prev" title="Previous Project: BookingSuite Uno">
 		          <div>
 		            <span class="item-title">Previous Project</span>
-		            <h3>BookingSuite: Uno</h3>
+		            <h3>BookingSuite Uno</h3>
 		          </div>
 		        </a>
 		    </div>
 
 		    <div class="direction next">
-		        <a href="/bookingsuite-website" rel="next" title="Next Project: BookingSuite: Web Family">
+		        <a href="/bookingsuite-website" rel="next" title="Next Project: BookingSuite Website Redesign">
 		          <div>
 		            <span class="item-title next-item">Next Project</span>
-		            <h3>BookingSuite: Website Redesign</h3>
+		            <h3>BookingSuite Website Redesign</h3>
 		          </div>
 		        </a>
 		    </div>
