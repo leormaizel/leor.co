@@ -23,6 +23,7 @@
     <section class="background">
       <div class="wrap">
         <h2 class="item-title">Background</h2>
+        <p class="visit">Visit the <a class="link" rel="external" target="_blank" href="http://www.suite.booking.com">live site</a>.</p>
         <p>My first project at BookingSuite was a real doozy. Formerly Buuteeq, the company had been acquired by Booking.com 6 months prior, and rebranded as BookingSuite. With no design or development resources, the marketing team launched a temporary website to reflect this rebrand, but it was clear that this site did not reflect our desired image as the aspiring leader in hospitality software. I was brought on to lead this redesign initiative.</p>
       </div>
       <div class="gallery">
@@ -135,7 +136,8 @@
       <div class="wrap">
         <h2 class="item-title">Lessons Learned</h2>
         <p>Redesigning a website is always a process fraught with politics, as there are so many stakeholders. Some of the organizational chaos I mentioned  could not have been avoided. Rather, if I could re-do this project, I would spend a lot more time discussing front-end implementation choices with the contract agency. My assumptions regarding industry-standard best-practices in responsive design turned out not to be safe assumptions, and as a result, the CMS was not built as flexibly as I’d like.</p>
-      <p>As a whole, the site was received by the main stakeholders as a great improvement, and has not significantly changed in over a year.</p></p>
+        <p>As a whole, the site was received by the main stakeholders as a great improvement, and has not significantly changed in over a year.</p>
+        <p>Visit the <a class="link" rel="external" target="_blank" href="http://www.suite.booking.com">live site</a>.</p>
       </div>
     </section>
 

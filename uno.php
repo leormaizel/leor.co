@@ -187,7 +187,7 @@
 
 		<div class="project-nav">
 		    <div class="direction previous">
-		        <a href="/" rel="prev" title="Previous Project: Pitchbook Feature Design">
+		        <a href="/pitchbook-feature-design" rel="prev" title="Previous Project: Pitchbook Feature Design">
 		          <div>
 		            <span class="item-title">Previous Project</span>
 		            <h3>Pitchbook Feature Design</h3>
@@ -218,10 +218,10 @@
 			states : {
 			"default-state": {
 				gradients: [
-					['#2BABB1', '#35CDAC'],
-					['#35CDAC', '#2BABB1'],
-					['#35CD88', '#2B98B1'],
-					['#3592CD', '#2BB174']
+					['#724F45', '#91816D'],
+					['#91816D', '#724F45'],
+					['#3E272B', '#856F5D'],
+					['#8A736B', '#3E272B']
 				]
 			}
 			}

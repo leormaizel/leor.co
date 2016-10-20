@@ -1,98 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Leor Maizel - UX Designer – Portfolio: PitchBook News & Analysis</title>
+		<?php include 'blocks/head.php'; ?>
+		<link rel="stylesheet" type="text/css" href="../css/fluidbox.min.css" />
+	</head>
+	
+	<body class="portfolio-project news-analysis">
+		<?php include_once("analyticstracking.php") ?>
+		
+		<!-- header -->
+		<?php include 'blocks/nav.php'; ?>
+		<header>
+			<canvas id="canvas-basic"></canvas>
+			<div class="wrap">
+				<div class="tagline">
+					<h1>PitchBook News & Analysis</h1>
+				</div>
+			</div>
+		</header>
+		<!-- work -->
+		<section class="background">
+			<div class="wrap">
+				<h2 class="item-title">Background</h2>
+				<p class="visit">Visit the <a class="link" rel="external" target="_blank" href="http://pitchbook.com/news">live site</a>.</p>
+				<p>Along with its Private Equity and Venture Capital data analytics platform, PitchBook produces a wealth of editorial content including monthly PE/VC industry reports, blog articles, videos, and a daily newsletter with a readership of over 200,000 (as of February 2015). In fact, most industry professionals knew PitchBook primarily as a daily newsletter rather than a SaaS platform.</p>
+				<p>As part of a larger corporate website redesign, I lobbied to take the opportunity to re-evaluate PitchBook's content strategy; all of PitchBook’s editorial content was spread throughout disparate and isolated channels. The blog was on one URL, PitchBook TV (their video content outlet) was on another, monthly industry reports were released via the corporate website, the daily newsletter was distributed via email, and never the four did meet.</p>
+			</div>
+			<div class="gallery">
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-old1.jpg">
+						<img src="assets/img/thumbs/news-analysis-old1.jpg">
+					</a>
+					<p>The old PitchBook Blog, on it's own domain</p>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-old2.jpg">
+						<img src="assets/img/thumbs/news-analysis-old2.jpg">
+					</a>
+					<p>The old PitchBook TV, also on it's own domain</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="wrap">
+				<h2 class="item-title">Project Goals</h2>
+				<p>After researching how comparable companies produce and distribute content, it became clear that PitchBook had (and continues to have) far outpaces it's competitors in terms of content breadth and depth of its content. I developed a proposal for PitchBook News & Analysis: a central hub for all PitchBook's content. The goals of this a strategy were to:</p>
+				<ul>
+					<li>Build brand equity and credibility: why dilute a brand experience through 4 divergent channels?</li>
+					<li>Increase organic search traffic: direct all the link equity to the same site</li>
+					<li>Showcase the power of the platform: integrating platform snapshots within the editorial content may lead to increased trial subscriptions.</li>
+					<li>Double down on thr awareness of PitchBook as a content producer to establish it as an authority and thought leader in PE/VC industry, much like Bloomberg, VentureBeat or PEHub</li>
+				</ul>
+			</div>
+			<div class="gallery">
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-sketch1.jpg">
+						<img src="assets/img/thumbs/news-analysis-sketch1.jpg">
+					</a>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-sketch2.jpg">
+						<img src="assets/img/thumbs/news-analysis-sketch2.jpg">
+					</a>
+				</div>
+				<p>A few sketches for the layout of the News & Analysis Homepage</p>
+			</div>
+			<div class="gallery">
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-wire1.jpg">
+						<img src="assets/img/thumbs/news-analysis-wire1.jpg">
+					</a>
+					<p>A more in-depth wireframe of the News & Analysis Homepage</p>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-wire2.jpg">
+						<img src="assets/img/thumbs/news-analysis-wire2.jpg">
+					</a>
+					<p>A wireframe of a possible "Subject Hub"–a jumping off point to similar types of content</p>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-arch.jpg">
+						<img src="assets/img/thumbs/news-analysis-arch.jpg">
+					</a>
+					<p>V1 of a sitemap for News & Analysis</p>
+				</div>
+			</div>
+		</section>
 
-  <head>
-  <title>Leor Maizel - UX Designer & Front-End Developer – Portfolio: PitchBook News & Analysis</title>
-  <?php include 'blocks/head.php'; ?>
-  </head>
- 
-  <body class="non-index portfolio-proj pb-na">
-    
-    <!-- header -->
-    <?php include 'blocks/nav-non-index.php'; ?>
-    <header>
-      <img src="assets/img/proj-na.png">
-    </header>
+		<section>
+			<div class="wrap">
+				<h2 class="item-title">In The Weeds</h2>
+				<p>I worked with many people across multiple teams to see this project to fruition. I worked with our talented graphic designer to design a styleguide and pattern library for the developers reference. I also worked with marketing to ensure that their concerns were met, such as</p>
+				<ul>
+					<li>Identifying the highest converting content types and strategzing methods for emphasizing this content (i.e. "Related Articles" sidebars, persistent "Featured" sections, etc.)</li>
+					<li>Creating compelling calls to action to sign up for a free trial of our platform</li>
+					<li>Planning a cohesive Thank You page strategy to keep users engaged post-conversion</li>
+					<li>developing an A/B test plan</li>
+				</ul>
+				<p>As this site would be developed as a WordPress clone, I worked with the editorial team to ensure that the underlying Content Management System had adquate tagging, authorship, and advertising controls.</p>
+				<p>In summer 2015, the site went live and can be <a class="link" rel="external" target="_blank" href="http://pitchbook.com/news">visited here</a>.</p>
+				<p></p>
+			</div>
 
-    <!-- work -->
+			<div class="gallery">
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-mock1.jpg">
+						<img src="assets/img/thumbs/news-analysis-mock1.jpg">
+					</a>
+					<p>A graphic mockup of the News & Analysis Homepage</p>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-mock2.jpg">
+						<img src="assets/img/thumbs/news-analysis-mock2.jpg">
+					</a>
+					<p>A graphic mockup of an individual article page</p>
+				</div>
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/news-analysis-mock3.jpg">
+						<img src="assets/img/thumbs/news-analysis-mock3.jpg">
+					</a>
+					<p>A graphic mockup of the reports download page</p>
+				</div>
+			</div>
+		</section>
 
-    <div class="proj_nav">
-      <a href="linkedin-integration" class="next"><i class="icon-angle-right"></i></a>
-    </div>
-
-    <section class="white content">
-      <div class="wrap">
-        <h1>PitchBook News & Analysis</h1>
-          <article>
-            <h2>Background</h2>
-            <p>Along with its Private Equity and Venture Capital data analytics platform, PitchBook produces a wealth of editorial content including monthly PE/VC industry reports, a blog, videos and a daily newsletter with a readership of 200,000.</p>
-            <p>While working to determine an overall site architecture and content strategy as part of a corporate website redesign, I noticed that all of PitchBook’s editorial content is spread throughout disparate and isolated channels. Our blog is on one site, PitchBook TV (our video content outlet) is on another site, our reports are released on our corporate website, daily newsletter are distributed via email and never the four shall meet. Talk about unrealized brand and SEO potential!</p>
-            <h2>Project Goals</h2>
-            <p>After conducting competitive research to see how similar companies distribute their editorial content, it became clear that PitchBook has a serious competitive advantage in the breadth and depth of the content it publishes. I developed a proposal for PitchBook News & Analysis: a hub for all our content that will establish us as an authority and thought leader in PE/VC industry, like Bloomberg, VentureBeat or PEHub.</p>
-            <p>In the proposal I tried to keep in mind which of our content sources are the highest converting, and plan a strategy for showing related and sidebar content accordingly.</p>
-          </article>
-          <aside>
-            <h3>Roles</h3>
-            <ul class="proj-ul">
-              <li>Information Architecture</li>
-              <li>Content Strategy</li>
-              <li>User Interface Design</li>
-              <li>Visual Design</li>
-              <li>Project Management</li>
-              <li>Brand Strategy</li>
-            </ul>
-          </aside>
-      </div>
-    </section>
-
-    <section class="blue-gray content">
-      <div class="wrap">
-        <div class="images">
-          <figure>
-            <img alt="pp-proj-pbweb-wireframe-1" src="../assets/img/pp-proj-pbweb-wireframe-1.jpg"/>
-            <figcaption>
-            An initial wireframe of the News & Analysis editorial hub containing all of our content: daily newsbriefs/headlines on the left, all content in the middle, and trending or promoted content on the right.
-            </figcaption>
-          </figure>
-          <figure>
-            <img alt="pp-proj-pbweb-wireframe-2" src="../assets/img/pp-proj-pbweb-wireframe-2.jpg"/>
-            <figcaption>
-            An initial wireframe of an individual article in News & Analysis. Note the attempts to keep the user engaged in the sidebar and CTAs leading to the platform on the bottom.
-            </figcaption>
-          </figure>
-          <figure>
-            <img alt="pp-proj-pbweb-arch" src="../assets/img/pp-proj-pbweb-arch.jpg"/>
-            <figcaption>
-            Architecture for the News & Analysis hub.
-            </figcaption>
-          </figure>
-          <figure>
-            <img alt="pp-proj-pbweb-1" src="../assets/img/pp-proj-pbweb-1.jpg"/>
-            <figcaption>
-            Design spec of the News & Analysis hub.
-            </figcaption>
-          </figure>
-          <figure>
-            <img alt="pp-proj-pbweb-3.jpg" src="../assets/img/pp-proj-pbweb-2.jpg"/>
-            <figcaption>
-            Design spec of an individual article page.
-            </figcaption>
-          </figure>
-          <figure>
-            <img alt="pp-proj-pbweb-4.jpg" src="../assets/img/pp-proj-pbweb-3.jpg"/>
-            <figcaption>
-            Design spec of the Reports Center within News & Analysis: a page that aggregates and organizes all of our industry reports.
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- stripe -->
-    <div class="bottom-stripe"></div>
-
-    <!-- footer -->
-    <?php include 'blocks/footer.php'; ?>
-  </body>
+		<!-- previous/next project -->
+		<div class="project-nav">
+			<div class="direction previous">
+				<a href="/keyword-search" rel="prev" title="Previous Project: PitchBook Keyword Search">
+					<div>
+						<span class="item-title">Previous Project</span>
+						<h3>PitchBook Keyword Search</h3>
+					</div>
+				</a>
+			</div>
+			<div class="direction next">
+				<a href="/pitchbook-feature-design" rel="next" title="Next Project: PitchBook Feature Design">
+					<div>
+						<span class="item-title next-item">Next Project</span>
+						<h3>PitchBook Feature Design</h3>
+					</div>
+				</a>
+			</div>
+		</div>
+		
+		<!-- footer -->
+		<?php include 'blocks/footer.php'; ?>
+		<script>
+		//Gradient genrator for header section
+		var granimInstance = new Granim({
+		element: '#canvas-basic',
+		name: 'basic-gradient',
+		direction: 'left-right',
+		opacity: [1, 1],
+		isPausedWhenNotInView: true,
+		states : {
+		"default-state": {
+			gradients: [
+			['#2BABB1', '#35CDAC'],
+			['#35CDAC', '#2BABB1'],
+			['#35CD88', '#2B98B1'],
+			['#3592CD', '#2BB174']
+			]
+		}
+		}
+		});
+		//Fluidbox initialize
+		$(function () {
+			$('.fluidbox').fluidbox();
+		})
+		</script>
+	</body>
 </html>
-

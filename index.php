@@ -32,7 +32,7 @@
 					</blockquote>
 				</div>
 				<a class="link" href="manifesto">
-					<span>read on</span>
+					<span>read more</span>
 				</a>
 			</div>
 		</section>
@@ -72,7 +72,7 @@
 						</a>
 					</li>
 					<li class="project">
-						<a href="pb-feature-design">
+						<a href="pitchbook-feature-design">
 							<div class="project-title">PitchBook Feature Design</div>
 							<p>A collection of features and data visualization tools for the Pitchbook platform.</p>
 						</a>

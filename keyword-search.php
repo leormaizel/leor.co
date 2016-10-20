@@ -34,8 +34,8 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-original.jpg">
-						<img src="assets/img/thumbs/key-original.jpg">
+					<a class="fluidbox" href="assets/img/keyword-original.jpg">
+						<img src="assets/img/thumbs/keyword-original.jpg">
 					</a>
 					<p>Overly constrained search resulted in frequent dead end queries</p>
 				</div>
@@ -49,46 +49,41 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-sketch1.jpg">
-						<img src="assets/img/thumbs/key-sketch1.jpg">
+					<a class="fluidbox" href="assets/img/keyword-sketch1.jpg">
+						<img src="assets/img/thumbs/keyword-sketch1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-sketch2.jpg">
-						<img src="assets/img/thumbs/key-sketch2.jpg">
+					<a class="fluidbox" href="assets/img/keyword-sketch2.jpg">
+						<img src="assets/img/thumbs/keyword-sketch2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-sketch3.jpg">
-						<img src="assets/img/thumbs/key-sketch3.jpg">
+					<a class="fluidbox" href="assets/img/keyword-sketch3.jpg">
+						<img src="assets/img/thumbs/keyword-sketch3.jpg">
 					</a>
 				</div>
 				<p>Working through the search logic with some whiteboarding.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-mock1.jpg">
-						<img src="assets/img/thumbs/key-mock1.jpg">
+					<a class="fluidbox" href="assets/img/keyword-mock1.jpg">
+						<img src="assets/img/thumbs/keyword-mock1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-mock2.jpg">
-						<img src="assets/img/thumbs/key-mock2.jpg">
+					<a class="fluidbox" href="assets/img/keyword-mock2.jpg">
+						<img src="assets/img/thumbs/keyword-mock2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-mock3.jpg">
-						<img src="assets/img/thumbs/key-mock3.jpg">
+					<a class="fluidbox" href="assets/img/keyword-mock3.jpg">
+						<img src="assets/img/thumbs/keyword-mock3.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-mock4.jpg">
-						<img src="assets/img/thumbs/key-mock4.jpg">
-					</a>
-				</div>
-				<div class="figure">
-					<a class="fluidbox" href="assets/img/key-mock5.jpg">
-						<img src="assets/img/thumbs/key-mock5.jpg">
+					<a class="fluidbox" href="assets/img/keyword-mock4.jpg">
+						<img src="assets/img/thumbs/keyword-mock4.jpg">
 					</a>
 				</div>
 				<p>Mockups describing the algorithmic logic and interaction patterns.</p>
@@ -106,7 +101,7 @@
 				</a>
 			</div>
 			<div class="direction next">
-				<a href="/bookingsuite-website" rel="next" title="Next Project: PitchBook News & Analysis">
+				<a href="/news-analysis" rel="next" title="Next Project: PitchBook News & Analysis">
 					<div>
 						<span class="item-title next-item">Next Project</span>
 						<h3>PitchBook News & Analysis</h3>
