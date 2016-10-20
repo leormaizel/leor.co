@@ -7,7 +7,7 @@
 	</head>
 	
 	<body class="portfolio-project uno">
-		<?php include_once("analyticstracking.php") ?>
+		<?php include_once("blocks/analyticstracking.php") ?>
 		
 		<!-- header -->
 		<?php include 'blocks/nav.php'; ?>
