@@ -24,8 +24,8 @@
 			<div class="wrap">
 				<h2 class="item-title">Background</h2>
 				<p class="visit">Visit the <a class="link" rel="external" target="_blank" href="http://pitchbook.com/news">live site</a>.</p>
-				<p>Along with its Private Equity and Venture Capital data analytics platform, PitchBook produces a wealth of editorial content including monthly PE/VC industry reports, blog articles, videos, and a daily newsletter with a readership of over 200,000 (as of February 2015). In fact, most industry professionals knew PitchBook primarily as a daily newsletter rather than a SaaS platform.</p>
-				<p>As part of a larger corporate website redesign, I lobbied to take the opportunity to re-evaluate PitchBook's content strategy; all of PitchBook’s editorial content was spread throughout disparate and isolated channels. The blog was on one URL, PitchBook TV (their video content outlet) was on another, monthly industry reports were released via the corporate website, the daily newsletter was distributed via email, and never the four did meet.</p>
+				<p>Along with its Private Equity and Venture Capital data analytics platform, PitchBook produces a wealth of editorial content including monthly PE/VC industry reports, blog articles, videos, and a daily newsletter with a readership of over 200,000 (as of February 2015). In fact, most industry professionals knew PitchBook primarily as a daily newsletter rather than as a SaaS platform.</p>
+				<p>As part of a larger corporate website redesign, I lobbied to re-evaluate PitchBook's content strategy; all of PitchBook’s editorial content was spread throughout disparate and isolated channels. The blog was on one URL, PitchBook TV (their video content outlet) was on another, monthly industry reports were released via the corporate website, the daily newsletter was distributed via email, and never the four did meet.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -45,12 +45,12 @@
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">Project Goals</h2>
-				<p>After researching how comparable companies produce and distribute content, it became clear that PitchBook had (and continues to have) far outpaces it's competitors in terms of content breadth and depth of its content. I developed a proposal for PitchBook News & Analysis: a central hub for all PitchBook's content. The goals of this a strategy were to:</p>
+				<p>After researching how comparable companies produce and distribute content, it became clear that PitchBook far outpaced its competitors in terms of content breadth and depth. I developed a proposal for PitchBook News & Analysis: a central hub for all PitchBook's content. The goals of this a strategy were to:</p>
 				<ul>
 					<li>Build brand equity and credibility: why dilute a brand experience through 4 divergent channels?</li>
-					<li>Increase organic search traffic: direct all the link equity to the same site</li>
+					<li>Increase organic search traffic: direct all the link equity to the same site.</li>
 					<li>Showcase the power of the platform: integrating platform snapshots within the editorial content may lead to increased trial subscriptions.</li>
-					<li>Double down on thr awareness of PitchBook as a content producer to establish it as an authority and thought leader in PE/VC industry, much like Bloomberg, VentureBeat or PEHub</li>
+					<li>Double down on the awareness of PitchBook as a content producer to establish it as an authority and thought leader in PE/VC industry, much like Bloomberg, VentureBeat or PEHub.</li>
 				</ul>
 			</div>
 			<div class="gallery">
@@ -77,7 +77,7 @@
 					<a class="fluidbox" href="assets/img/news-analysis-wire2.jpg">
 						<img src="assets/img/thumbs/news-analysis-wire2.jpg">
 					</a>
-					<p>A wireframe of a possible "Subject Hub"–a jumping off point to similar types of content</p>
+					<p>A wireframe of a possible "subject hub"&mdash;a jumping off point to similar types of content</p>
 				</div>
 				<div class="figure">
 					<a class="fluidbox" href="assets/img/news-analysis-arch.jpg">
@@ -91,14 +91,14 @@
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">In The Weeds</h2>
-				<p>I worked with many people across multiple teams to see this project to fruition. I worked with our talented graphic designer to design a styleguide and pattern library for the developers reference. I also worked with marketing to ensure that their concerns were met, such as</p>
+				<p>I worked with many people across multiple teams to see this project to fruition. I worked with our talented graphic designer to design a styleguide and pattern library for the developers' reference. I also worked with marketing to ensure that their concerns were met, such as:</p>
 				<ul>
-					<li>Identifying the highest converting content types and strategzing methods for emphasizing this content (i.e. "Related Articles" sidebars, persistent "Featured" sections, etc.)</li>
+					<li>Identifying the highest converting content types and strategizing methods for emphasizing this content (i.e. "Related Articles" sidebars, persistent "Featured" sections, etc.)</li>
 					<li>Creating compelling calls to action to sign up for a free trial of our platform</li>
 					<li>Planning a cohesive Thank You page strategy to keep users engaged post-conversion</li>
 					<li>developing an A/B test plan</li>
 				</ul>
-				<p>As this site would be developed as a WordPress clone, I worked with the editorial team to ensure that the underlying Content Management System had adquate tagging, authorship, and advertising controls.</p>
+				<p>As this site would be developed as a WordPress clone, I worked with the editorial team to ensure that the underlying Content Management System had adequate tagging, authorship, and advertising controls.</p>
 				<p>In summer 2015, the site went live and can be <a class="link" rel="external" target="_blank" href="http://pitchbook.com/news">visited here</a>.</p>
 				<p></p>
 			</div>

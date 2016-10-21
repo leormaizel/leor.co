@@ -23,16 +23,16 @@
 		<section class="background">
 			<div class="wrap">
 				<h2 class="item-title">Background</h2>
-				<p>During the winter of 2015, BookingSuite built WebDirect––a turnkey content management system for hotels. Leveraging data and assets from Booking.com’s e-commerce website, hoteliers could have a fully functioning website, complete with pre-populated photography, and a  series of pre-built, canonical pages (Home, Rooms, Facilities, Photos, Reservations). All for free. Within months, BookingSuite’s install base grew from under 10,000 to over 100,000.</p>
-				<p>This product was geared toward the “long tail” market segment, but for more sophisticated hotels, with more complex digital marketing needs, BookingSuite sought to build a more premium product offering, WebDirect+.</p>
-				<p>The main goal was to take the existing product, built for automation and scale, and supplement it with more premium features allowing for greater customization and expression of a hotel's unique character. Some of these features included a WYSIWYG page builder, a site navigation and IA editor, new canonical pages such as Dining and Attractions, etc.</p>
+				<p>During the winter of 2015, BookingSuite built WebDirect&mdash;a turnkey content management system for hotels. Leveraging data and assets from Booking.com’s e-commerce website, hoteliers could have a fully functioning website, complete with pre-populated photography, and a  series of pre-built, canonical pages (Home, Rooms, Facilities, Photos, Reservations). All for free. Within months, BookingSuite’s install base grew by 10x.</p>
+				<p>This product was geared toward the “long tail” market segment, but for more sophisticated hotels with more complex digital marketing needs, BookingSuite sought to build a more premium product offering&mdash;WebDirect+.</p>
+				<p>The main goal was to take the existing product, built for automation and scale, and supplement it with more premium features allowing for greater customization and expression of a hotel's unique character. Some of these features included a WYSIWYG page builder, a site navigation and IA editor, and new canonical pages such as Dining and Attractions, etc.</p>
 			</div>
 		</section>
 
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">Page Builder</h2>
-				<p>Clients with more sophisticated content requirements need to be able to create their own customized pages, whether for a promotion, an article about the history of the hotel, etc. The goal was to design a full-featured WYSIWYG editor, but as I found in my user tests, even the best of such products––Squarespace, Wix, and Weebly––are often described as “finicky” and "hard to use." I needed to find the right balance between robust functionality and UI limitations.</p>
+				<p>The segment we targeted for WebDirect+ needs to be able to create custom pages, whether for a promotion, an article about the history of the hotel, etc. The goal was to design a full-featured WYSIWYG editor, but as I found in my user tests, even the best of such products&mdash;Squarespace, Wix, and Weebly&mdash;are often described as “finicky” and "hard to use." I needed to find the right balance between robust functionality and UI limitations.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -92,7 +92,8 @@
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">Dining Page</h2>
-				<p>The most common page users’ would create manually were showcases of their hotel’s dining options. Furthermore, our customers often had already  listed their dining facility on Booking.com. In an effort to make the process of launching a website more streamlined, we added “Dining” to the list of canonical pages. This project was especially challenging because some hotels provided very little and some much more data about their dining options. Some hotels have one restaurant, some have up to five. I aimed to design a modular system that could accommodate the minimalist as well as fully robust use cases.</p>
+				<p>The most common page users would create on their websites manually were showcases of a hotel’s dining options. Interestingly, these same customers often had already listed these dining facilities on Booking.com. In an effort to make the process of launching a website more streamlined, we added a system-generated “Dining” page to the list of canonical pages. When a website was initially provisioned, we'd read all the existing data of the dining facility on Booking.com and create a pre-filled page that the user could then enhance/edit.</p>
+				<p>This project was especially challenging because some hotels provided very little and some a great deal of data about their dining options. The vast majority of hotels have one restaurant; fewer have 3 or more. I aimed to design a modular system that could accommodate the minimalist as well as fully robust use cases.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -115,7 +116,7 @@
 						<img src="assets/img/thumbs/webfam-dining-fe-sketch4.jpg">
 					</a>
 				</div>
-				<p>Several initial sketches for the dining page, acommodating both very little and very much content.</p>
+				<p>Several initial sketches for the dining page, accommodating both very little and very much content.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -148,7 +149,7 @@
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch6.jpg">
 					</a>
 				</div>
-				<p>Several sketches for the CMS portion of the dining page, where the user enters all the content for their page.</p>
+				<p>Several sketches for the CMS portion of the dining page, where the user edits the content for their page.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -161,14 +162,14 @@
 						<img src="assets/img/thumbs/webfam-dining-fe-mock1.jpg">
 					</a>
 				</div>
-				<p>Mockups showing evolution of the page, with very little as well as fully filled data.</p>
+				<p>Mockups showing the evolution of the dining page, with very little as well as fully filled-out data.</p>
 			</div>
 		</section>
 
 		<section>
 			<div class="wrap">
 				<h2 class="item-title">User Research</h2>
-				<p>Throughout this process I cared out a series of remote user tests. Using clickable InVision prototypes and GoToMeeting, I observed and recorded users interacting with these features. Using UserTesting.com, I conducted a statistically-significant first-click analysis of how users expect to interact with the Page Manager feature. These tests provided invaluable feedback and validation for our MVP.</p>
+				<p>Throughout this process I cared out a series of remote user tests. Using clickable InVision prototypes, I observed and recorded users interacting with these features. Using UserTesting.com, I conducted a statistically-significant first-click analysis of how users expect to interact with the Page Manager feature. These tests provided invaluable feedback and validation for our MVP.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">

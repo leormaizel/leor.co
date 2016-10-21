@@ -44,7 +44,7 @@
 					<li class="project featured">
 						<a href="uno">
 							<div class="project-title">BookingSuite: Uno</div>
-							<p>An all-in-one hotel management solution that gives hotels all the tools needed to manage their business.</p>
+							<p>Hotels may manage up to 14 different software vendors. Uno is the all-in-one hospitality software solution.</p>
 						</a>
 					</li>
 					<li class="project featured">
@@ -56,7 +56,7 @@
 					<li class="project">
 						<a href="bookingsuite-website">
 							<div class="project-title">BookingSuite: Website Redesign</div>
-							<p>A revamp of BookingSuite’s global corporate website</p>
+							<p>A revamp of BookingSuite’s post-acquisition global corporate website.</p>
 						</a>
 					</li>
 					<li class="project">
@@ -68,7 +68,7 @@
 					<li class="project">
 						<a href="news-analysis">
 							<div class="project-title">PitchBook News & Analysis</div>
-							<p>A content hub for all of PitchBook’s editorial content</p>
+							<p>A central hub for all of PitchBook’s editorial content</p>
 						</a>
 					</li>
 					<li class="project">
@@ -86,7 +86,7 @@
 				<h2 class="title">about</h2>
 				<img src="assets/img/leor.png" alt="Photo of Leor" />
 				<div class="copy">
-					<p>There are many different usages of the terms “Product Designer” and “UX Designer” throughout the industry; I'm an interdisciplinarian. A generalist. I enjoy being involved in all stages of the user-centered design process and product lifecycle. My experience ranges from the the early, conceptual phase in helping define product requirements, sketching, wireframing and prototyping; to validation through user testing; to front-end implementation and frequent iteration.</p>
+					<p>There are many different usages of the terms “Product Designer” and “UX Designer” throughout the industry; I'm an interdisciplinarian. A generalist. I enjoy being involved in all stages of the user-centered design process and product lifecycle. My experience ranges from the the early, conceptual phase in helping to define product requirements, sketching, wireframing and prototyping; to validation through user testing; to front-end implementation and frequent iteration.</p>
 					<p>I prize most highly the opportunity to learn voraciously from other skilled designers, and hone my abilities across the spectrum of product design disciplines.</p>
 					<p>Thanks for visiting and drop me a line: <span class="contact">leormaizel</span> at <span class="contact">gmail</span> dot <span class="contact">com</span></p>
 				</div>

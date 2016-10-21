@@ -25,12 +25,20 @@
 				<h2 class="item-title">Background</h2>
 				<p>While the PitchBook Platform has an incredibly sophisticated advanced search feature, approximately 95% of users utilize the top search box as their primary mode of interaction. Users would commonly bypass every navigational element on the platform and go straight to search. However, queries would frequently result in a dead end, as the search algorithm accommodated only one type of query.</p>
 			</div>
+			<div class="gallery">
+				<div class="figure">
+					<a class="fluidbox" href="assets/img/keyword-searchbar.jpg">
+						<img src="assets/img/thumbs/keyword-searchbar.jpg">
+					</a>
+					<p>At the top of the screen is the global search bar. The starting point for 95% of users.</p>
+				</div>
+			</div>
 		</section>
 		<section>
 			<div class="wrap">
-				<p>But first, a little bit of taxonomy. Every “entity” in the PitchBook platform––a person or a company––is categorized by keyword (words generally relating to that entity in any manner), industry (one of a list of pre-set business categories), and vertical (a grouping of companies related in product or service that may span multiple industries). For instance, Snapchat may be categorized by industry as “B2C,” by vertical as “Social Media,” and by keyword as “photo sharing.” To make matters more complicated, industries and verticals are also keywords.</p>
-				<p>…back to dead end queries. The search functionality would only show results based on entity, meaning that whatever the query, the user would only see entities exactly or broadly matching that query. This drastically limited engagement and discovery, for instance queries such as "Internet of things," "Social Media," and "3d priniting" would return no results, unless there was a matching entity</p>
-				<p>For a platform that is supposed to help investors discover potential investments, this was a huge limitaton.</p>
+				<p>But first, a little bit of taxonomy. Every “entity” in the PitchBook platform&emdash;a person or a company&emdash;is categorized by keyword (words generally relating to that entity in any manner), industry (one of a list of pre-set business categories), and vertical (a grouping of companies related in product or service that may span multiple industries). For instance, Snapchat may be categorized by industry as “B2C,” by vertical as “Social Media,” and by keyword as “photo sharing.” To make matters more complicated, industries and verticals are also keywords.</p>
+				<p>…back to dead end queries. The search functionality would only show results based on entity, meaning that whatever the query, the user would only see entities exactly or broadly matching that query. This drastically limited engagement and discovery, for instance queries such as "Internet of things," "Social Media," and "3d printing" would return no results, unless there was a matching entity</p>
+				<p>For a platform that is supposed to help investors discover potential investments, this was a huge limitation.</p>
 			</div>
 			<div class="gallery">
 				<div class="figure">
@@ -87,6 +95,12 @@
 					</a>
 				</div>
 				<p>Mockups describing the algorithmic logic and interaction patterns.</p>
+			</div>
+		</section>
+		<section>
+			<div class="wrap">
+				<h2 class="item-title">Results</h2>
+				<p>If I had the power to change anything about my time at PitchBook, I would have worked harder to establish robust user data measurement within the platform. At the time, I was not able to measure the outcomes of this project with quantitative data. However, the account management department was often our go-to for user feedback. After releasing this feature update, we heard consistently positive feedback from our customers that the enhanced search increased their ability to discover new companies.</p>
 			</div>
 		</section>
 
