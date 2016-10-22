@@ -176,10 +176,11 @@
       states : {
       "default-state": {
         gradients: [
-          ['#2BABB1', '#35CDAC'],
-          ['#35CDAC', '#2BABB1'],
-          ['#35CD88', '#2B98B1'],
-          ['#3592CD', '#2BB174']
+          ['#A480AC', '#432C5E'],
+          ['#59478F', '#E5B7EC'],
+          ['#432C5E', '#FDE3FC'],
+          ['#E5B7EC', '#432C5E']
+          
         ]
       }
       }

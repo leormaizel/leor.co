@@ -211,21 +211,21 @@
 		<script>
 		//Gradient genrator for header section
 			var granimInstance = new Granim({
-			element: '#canvas-basic',
-			name: 'basic-gradient',
-			direction: 'left-right',
-			opacity: [1, 1],
-			isPausedWhenNotInView: true,
-			states : {
-			"default-state": {
-				gradients: [
-					['#724F45', '#91816D'],
-					['#91816D', '#724F45'],
-					['#3E272B', '#856F5D'],
-					['#8A736B', '#3E272B']
-				]
-			}
-			}
+				element: '#canvas-basic',
+				name: 'basic-gradient',
+				direction: 'left-right',
+				opacity: [1, 1],
+				isPausedWhenNotInView: true,
+				states : {
+					"default-state": {
+						gradients: [
+							['#024876', '#8497A8'],
+							['#BFBDB0', '#29688F'],
+							['#F1E5D4', '#013E6E'],
+							['#01507C', '#687D90']
+						]
+					}
+				}
 			});
 		//Fluidbox initialize
 		$(function () {

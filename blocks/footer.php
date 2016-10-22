@@ -15,7 +15,7 @@
 	</div>
 
 </footer>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
 <script src="js/jquery.fluidbox.min.js	"></script>
 <script src="js/granim.min.js"></script>
