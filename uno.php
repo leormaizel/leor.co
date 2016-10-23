@@ -83,7 +83,7 @@
 
 		<section>
 			<div class="wrap">
-				<h2 class="item-title">Information Architecture Testing</h2>
+				<h2 class="item-title">IA Testing</h2>
 				<p>Before investing too many resources in development, we wanted to validate our proposed IA structure. I helped carry out a series of statistically-significant reverse card-sort tests (AKA tree tests) with over 10,000 hotel partners in Italy, Spain, the UK, and the US. The goal of the test was scoped narrowly: to find the optimal IA for one portion on the application, but fascinatingly, the results had implications for the whole IA structure. We had nested pages too many levels deep for users to comfortably navigate.</p>
 			</div>
 			<div class="gallery no-flexbox">
