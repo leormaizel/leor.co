@@ -34,37 +34,37 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-0.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-0.jpg">
 						<img src="assets/img/thumbs/pb-timeline-0.jpg">
 					</a>
 					<p>Lots of ideas for how to visualize a company's financing history</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-1.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-1.jpg">
 						<img src="assets/img/thumbs/pb-timeline-1.jpg">
 					</a>
 					<p>Card-based approach: each card represents a different stage in the company's life</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-2.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-2.jpg">
 						<img src="assets/img/thumbs/pb-timeline-2.jpg">
 					</a>
 					<p>Hybrid card and bar graph approach: to accurately visualize the magnitude of the financial event</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-3.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-3.jpg">
 						<img src="assets/img/thumbs/pb-timeline-3.jpg">
 					</a>
 					<p>A different take on the hybrid card and bar graph approach</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-4.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-4.jpg">
 						<img src="assets/img/thumbs/pb-timeline-4.jpg">
 					</a>
 					<p>A different, more minimalist take on the hybrid bar graph approach, with letter icons representing the financing round</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-timeline-5.jpg">
+					<a href="#" data-featherlight="assets/img/pb-timeline-5.jpg">
 						<img src="assets/img/thumbs/pb-timeline-5.jpg">
 					</a>
 					<p>A detailed styleguide for the display of the graph and the informational tooltip that would appear upon hover</p>
@@ -91,19 +91,19 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-excel-1.jpg">
+					<a href="#" data-featherlight="assets/img/pb-excel-1.jpg">
 						<img src="assets/img/thumbs/pb-excel-1.jpg">
 					</a>
 					<p>Customized Excel toolbar ribbon with Pitchbook-specific options</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-excel-2.jpg">
+					<a href="#" data-featherlight="assets/img/pb-excel-2.jpg">
 						<img src="assets/img/thumbs/pb-excel-2.jpg">
 					</a>
 					<p>Example of the industry standard financial modeling templates</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/pb-excel-3.jpg">
+					<a href="#" data-featherlight="assets/img/pb-excel-3.jpg">
 						<img src="assets/img/thumbs/pb-excel-3.jpg">
 					</a>
 					<p>Example of the industry standard financial modeling templates</p>

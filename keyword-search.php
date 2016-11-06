@@ -27,7 +27,7 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-searchbar.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-searchbar.jpg">
 						<img src="assets/img/thumbs/keyword-searchbar.jpg">
 					</a>
 					<p>At the top of the screen is the global search bar. The starting point for 95% of users.</p>
@@ -42,7 +42,7 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-original.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-original.jpg">
 						<img src="assets/img/thumbs/keyword-original.jpg">
 					</a>
 					<p>Overly constrained search resulted in frequent dead end queries</p>
@@ -57,17 +57,17 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-sketch1.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-sketch1.jpg">
 						<img src="assets/img/thumbs/keyword-sketch1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-sketch2.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-sketch2.jpg">
 						<img src="assets/img/thumbs/keyword-sketch2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-sketch3.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-sketch3.jpg">
 						<img src="assets/img/thumbs/keyword-sketch3.jpg">
 					</a>
 				</div>
@@ -75,22 +75,22 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-mock1.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-mock1.jpg">
 						<img src="assets/img/thumbs/keyword-mock1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-mock2.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-mock2.jpg">
 						<img src="assets/img/thumbs/keyword-mock2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-mock3.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-mock3.jpg">
 						<img src="assets/img/thumbs/keyword-mock3.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/keyword-mock4.jpg">
+					<a href="#" data-featherlight="assets/img/keyword-mock4.jpg">
 						<img src="assets/img/thumbs/keyword-mock4.jpg">
 					</a>
 				</div>

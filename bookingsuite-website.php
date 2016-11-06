@@ -28,7 +28,7 @@
       </div>
       <div class="gallery">
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-old.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-old.jpg">
             <img src="assets/img/thumbs/bks-web-old.jpg">
           </a>
           <p>The homepage of the old, temporary BookingSuite website</p>
@@ -43,7 +43,7 @@
       </div>
       <div class="gallery">
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-contentinv.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-contentinv.jpg">
             <img src="assets/img/thumbs/bks-web-contentinv.jpg">
           </a>
           <p>BookingSuite website content audit</p>
@@ -54,25 +54,25 @@
       </div>
       <div class="gallery">
         <div class="figure">
-          <a class="fluidbox" href="assets/img/wbks-web-wire1.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-wire1.jpg">
             <img src="assets/img/thumbs/bks-web-wire1.jpg">
           </a>
           <p>Homepage responsive wireframe</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-wire2.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-wire2.jpg">
             <img src="assets/img/thumbs/bks-web-wire2.jpg">
           </a>
           <p>Features page responsive wireframe</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-wire3.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-wire3.jpg">
             <img src="assets/img/thumbs/bks-web-wire3.jpg">
           </a>
           <p>Plans page responsive wireframe</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-wire4.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-wire4.jpg">
             <img src="assets/img/thumbs/bks-web-wire4.jpg">
           </a>
           <p>Specific plan page template responsive wireframe</p>
@@ -88,43 +88,43 @@
       </div>
       <div class="gallery">
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-mock1.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-mock1.jpg">
             <img src="assets/img/thumbs/bks-web-mock1.jpg">
           </a>
           <p>Homepage mockup</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-mock2.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-mock2.jpg">
             <img src="assets/img/thumbs/bks-web-mock2.jpg">
           </a>
           <p>Products page mockup</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-mock3.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-mock3.jpg">
             <img src="assets/img/thumbs/bks-web-mock3.jpg">
           </a>
           <p>Product features page mockup</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-mock4.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-mock4.jpg">
             <img src="assets/img/thumbs/bks-web-mock4.jpg">
           </a>
           <p>Customer testimonials page mockup</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-mock5.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-mock5.jpg">
             <img src="assets/img/thumbs/bks-web-mock5.jpg">
           </a>
           <p>Testimonial/article template mockup</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-style1.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-style1.jpg">
             <img src="assets/img/thumbs/bks-web-style1.jpg">
           </a>
           <p>Styleguide: colors, elements, forms</p>
         </div>
         <div class="figure">
-          <a class="fluidbox" href="assets/img/bks-web-style1.jpg">
+          <a href="#" data-featherlight="assets/img/bks-web-style1.jpg">
             <img src="assets/img/thumbs/bks-web-style1.jpg">
           </a>
           <p>Styleguide: typography</p>

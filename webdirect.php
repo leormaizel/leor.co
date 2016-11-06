@@ -36,31 +36,31 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-artclbldr-sketch1.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-artclbldr-sketch1.jpg">
 						<img src="assets/img/thumbs/webfam-artclbldr-sketch1.jpg">
 					</a>
 					<p>A discarded idea for drag-n-drop content controls</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-artclbldr-sketch2.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-artclbldr-sketch2.jpg">
 						<img src="assets/img/thumbs/webfam-artclbldr-sketch2.jpg">
 					</a>
 					<p>Several ideas for how the user adds content blocks to the page, in this case one or multiple images</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-artclbldr-sketch3.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-artclbldr-sketch3.jpg">
 						<img src="assets/img/thumbs/webfam-artclbldr-sketch3.jpg">
 					</a>
 					<p>Variation of the UI for adding content blocks</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-artclbldr-sketch4.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-artclbldr-sketch4.jpg">
 						<img src="assets/img/thumbs/webfam-artclbldr-sketch4.jpg">
 					</a>
 					<p>Variation of the UI for adding content blocks</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-artclbldr-flow.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-artclbldr-flow.jpg">
 						<img src="assets/img/thumbs/webfam-artclbldr-flow.jpg">
 					</a>
 					<p>User flow: how the user enters a title, text, image and custom formatting within a pre-defined page template</p>
@@ -81,7 +81,7 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-pgmgr-flow.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-pgmgr-flow.jpg">
 						<img src="assets/img/thumbs/webfam-pgmgr-flow.jpg">
 					</a>
 					<p>User flow: showing how a user manages the IA and page structure of their site</p>
@@ -97,22 +97,22 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-sketch1.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-sketch1.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-sketch1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-sketch2.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-sketch2.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-sketch2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-sketch3.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-sketch3.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-sketch3.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-sketch4.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-sketch4.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-sketch4.jpg">
 					</a>
 				</div>
@@ -120,32 +120,32 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch1.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch1.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch2.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch2.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch3.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch3.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch3.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch4.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch4.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch4.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch5.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch5.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch5.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-cms-sketch6.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-cms-sketch6.jpg">
 						<img src="assets/img/thumbs/webfam-dining-cms-sketch6.jpg">
 					</a>
 				</div>
@@ -153,12 +153,12 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-mock2.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-mock2.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-mock2.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-dining-fe-mock1.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-dining-fe-mock1.jpg">
 						<img src="assets/img/thumbs/webfam-dining-fe-mock1.jpg">
 					</a>
 				</div>
@@ -173,7 +173,7 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/webfam-pgmgr-research.jpg">
+					<a href="#" data-featherlight="assets/img/webfam-pgmgr-research.jpg">
 						<img src="assets/img/thumbs/webfam-pgmgr-research.jpg">
 					</a>
 					<p>First click analysis results: through which UI controls does the user expect to be able to assign, reorder, and create new pages</p>

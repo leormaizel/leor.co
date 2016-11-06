@@ -29,13 +29,13 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-old1.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-old1.jpg">
 						<img src="assets/img/thumbs/news-analysis-old1.jpg">
 					</a>
 					<p>The old PitchBook Blog, on it's own domain</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-old2.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-old2.jpg">
 						<img src="assets/img/thumbs/news-analysis-old2.jpg">
 					</a>
 					<p>The old PitchBook TV, also on it's own domain</p>
@@ -55,12 +55,12 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-sketch1.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-sketch1.jpg">
 						<img src="assets/img/thumbs/news-analysis-sketch1.jpg">
 					</a>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-sketch2.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-sketch2.jpg">
 						<img src="assets/img/thumbs/news-analysis-sketch2.jpg">
 					</a>
 				</div>
@@ -68,19 +68,19 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-wire1.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-wire1.jpg">
 						<img src="assets/img/thumbs/news-analysis-wire1.jpg">
 					</a>
 					<p>A more in-depth wireframe of the News & Analysis Homepage</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-wire2.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-wire2.jpg">
 						<img src="assets/img/thumbs/news-analysis-wire2.jpg">
 					</a>
 					<p>A wireframe of a possible "subject hub"&mdash;a jumping off point to similar types of content</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-arch.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-arch.jpg">
 						<img src="assets/img/thumbs/news-analysis-arch.jpg">
 					</a>
 					<p>V1 of a sitemap for News & Analysis</p>
@@ -105,19 +105,19 @@
 
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-mock1.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-mock1.jpg">
 						<img src="assets/img/thumbs/news-analysis-mock1.jpg">
 					</a>
 					<p>A graphic mockup of the News & Analysis Homepage</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-mock2.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-mock2.jpg">
 						<img src="assets/img/thumbs/news-analysis-mock2.jpg">
 					</a>
 					<p>A graphic mockup of an individual article page</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/news-analysis-mock3.jpg">
+					<a href="#" data-featherlight="assets/img/news-analysis-mock3.jpg">
 						<img src="assets/img/thumbs/news-analysis-mock3.jpg">
 					</a>
 					<p>A graphic mockup of the reports download page</p>

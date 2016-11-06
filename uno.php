@@ -3,7 +3,6 @@
 	<head>
 		<title>Leor Maizel - UX Designer – Portfolio: BookingSuite Uno</title>
 		<?php include 'blocks/head.php'; ?>
-		<link rel="stylesheet" type="text/css" href="../css/fluidbox.min.css" />
 	</head>
 	
 	<body class="portfolio-project uno">
@@ -43,37 +42,37 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-invoicing.jpg">
+					<a href="#" data-featherlight="assets/img/uno-invoicing.jpg">
 						<img src="assets/img/thumbs/uno-invoicing.jpg">
 					</a>
 					<p>Invoicing wireframes and user flow</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-channel-setup.jpg">
+					<a href="#" data-featherlight="assets/img/uno-channel-setup.jpg">
 						<img src="assets/img/thumbs/uno-channel-setup.jpg">
 					</a>
 					<p>Channel setup wireframes and user flow: how the property organizes and distributes its rates on sites like Booking.com, Priceline, etc.</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-grid.jpg">
+					<a href="#" data-featherlight="assets/img/uno-grid.jpg">
 						<img src="assets/img/thumbs/uno-grid.jpg">
 					</a>
 					<p>Reservation grid mockup: how the property assigns guests to rooms</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-rez-detail-mobile.jpg">
+					<a href="#" data-featherlight="assets/img/uno-rez-detail-mobile.jpg">
 						<img src="assets/img/thumbs/uno-rez-detail-mobile.jpg">
 					</a>
 					<p>Native iOS app mockup of a guest's reservation details</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-rez-list.jpg">
+					<a href="#" data-featherlight="assets/img/uno-rez-list.jpg">
 						<img src="assets/img/thumbs/uno-rez-list.jpg">
 					</a>
 					<p>Mockup of a property's full list of reservations</p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-rez-list-mobile.jpg">
+					<a href="#" data-featherlight="assets/img/uno-rez-list-mobile.jpg">
 						<img src="assets/img/thumbs/uno-rez-list-mobile.jpg">
 					</a>
 					<p>Native iOS mockup of the reservations list</p>
@@ -115,7 +114,7 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-old-today.jpg">
+					<a href="#" data-featherlight="assets/img/uno-old-today.jpg">
 						<img src="assets/img/thumbs/uno-old-today.jpg">
 					</a>
 					<p>A screen of the Booking.com extranet. With a vastly different IA, redesigning Uno would be a huge challenge. </p>
@@ -136,37 +135,37 @@
 			</div>
 			<div class="gallery">
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-1.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-1.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-1.jpg">
 					</a>
 					<p></p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-2.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-2.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-2.jpg">
 					</a>
 					<p></p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-3.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-3.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-3.jpg">
 					</a>
 					<p></p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-4.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-4.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-4.jpg">
 					</a>
 					<p></p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-5.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-5.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-5.jpg">
 					</a>
 					<p></p>
 				</div>
 				<div class="figure">
-					<a class="fluidbox" href="assets/img/uno-extra-wire-6.jpg">
+					<a href="#" data-featherlight="assets/img/uno-extra-wire-6.jpg">
 						<img src="assets/img/thumbs/uno-extra-wire-6.jpg">
 					</a>
 					<p></p>
@@ -227,10 +226,6 @@
 					}
 				}
 			});
-		//Fluidbox initialize
-		$(function () {
-		    $('.fluidbox').fluidbox();
-		})
 		</script>
 	</body>
 </html>

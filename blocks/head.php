@@ -6,6 +6,7 @@
 <meta property="og:site_name" content="Leor Maizel - UX Design Portfolio"/>
 <meta property="og:type" content="portfolio"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/featherlight.min.css" />
 <link rel="stylesheet" type="text/css" href="../css/style.css" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=wAv4baEJex">
 <link rel="icon" type="image/png" href="/favicon-32x32.png?v=wAv4baEJex" sizes="32x32">
